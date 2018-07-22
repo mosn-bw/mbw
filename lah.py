@@ -10,9 +10,9 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
-#ARIF PERSEMBAHKAN BOT INI BUAT KALIAN YANG MEMANG MEMBUTUHKAN | LIKE & SUBSCRIBE CHANNEL YOUTUBE SAYA : Arifistifik
+#BOT INI BUAT KALIAN YANG MEMANG MEMBUTUHKAN
 #cl = LineClient()
-cl = LineClient(authToken='EthvrBvufsKiXqRHS7e5.ELelAycz6M3rL1VnttWz9q.L8eE/8eoWhidLaa/S+Fwi6lkZhiG2vAgE1ZaeGsuXA4=')
+cl = LineClient(authToken='EvJsiPduJq3HPq3x7Ene.mDIRQD+WthuKlYOGL7ITRG.rylDlzzqaCKKWt2cGkJ1lbNMd4Ct2GEsaBGh8VvToe4=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -26,7 +26,7 @@ admin = [mid]
 
 KAC = [cl]
 Bots = [mid]
-Arif = admin
+Phie = admin
 
 welcome = []
 simisimi = []
@@ -43,10 +43,10 @@ myProfile = {
 	"pictureStatus": ""
 }
 
-arifProfile = cl.getProfile()
-myProfile["displayName"] = arifProfile.displayName
-myProfile["statusMessage"] = arifProfile.statusMessage
-myProfile["pictureStatus"] = arifProfile.pictureStatus
+phieProfile = cl.getProfile()
+myProfile["displayName"] = phieProfile.displayName
+myProfile["statusMessage"] = phieProfile.statusMessage
+myProfile["pictureStatus"] = phieProfile.pictureStatus
 
 settings = {
     "Picture":False,
@@ -102,12 +102,12 @@ wait = {
     "sticker":False,
     "selfbot":True,
     "unsend":False,
-    "mention":"Hayoo ngintip -_-",
-    "Respontag":"Tag gua pasti pengen kawin lagi ye khaaan...🙌😂",
+    "mention":"Hayoo ngintip ,ketuaan kan..ngaku hayoo",
+    "Respontag":"ciee nge-Tag gua ,pasti pas ada maunya aja...🙌😂",
     "welcome":"Grubumuza Hoşgeldiniz",
-    "leave":"NAH LOH BAPER KHAAAN KHAAAN 😂",
-    "comment":"Like like & like by DPK_BOT",
-    "message":"#Price List ARIFISTIFIK :\n\n🤖 Bot Python2 :\n🔰 Self Bot Only ⏩ 80K/Bulan\n\n🤖 Bot Python3 :\n🔰 Self Bot Only ⏩ 100K/Bulan\n🔰 Self Bot + 4 Assist ⏩ 200K/Bulan\n🔰 Self Bot + 10 Assist + 2 Ghost + 1 AntiJS ⏩ 450K/Bulan\n\n✍️ Bisa Requests Mau Berapa Assist Buat Py3.\nChat Ke : http://line.me/ti/p/~arif.mh\n\n📃\n* Always on 24 Jam\n* Fitur Banyak\n* Speed Python2 0.06S\n* Speed Python3 0.02S\n# Buat Assist, Pake Akun Dari Kami Harga Beda Lagi.",
+    "leave":"NAH LOH BAPER KHAAAN KHAAAN ,KEBANYAKAN DRAMA SIHH..😂",
+    "comment":"Like by JEM_BOT",
+    "message":"#Price List ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ :\n\n🤖 Bot Python2 :\n🔰 Self Bot Only ⏩ 80K/Bulan\n\n🤖 Bot Python3 :\n🔰 Self Bot Only ⏩ 100K/Bulan\n🔰 Self Bot + 4 Assist\n🔰 Self Bot + 10 Assist + 2 Ghost + 1 AntiJS ⏩ 450K/Bulan\n\n✍️ Bisa Requests Mau Berapa Assist Buat Py3.\nChat Ke : http://line.me/ti/p/~calon.almarhum99\n\n📃\n* Always on 24 Jam\n* Fitur Banyak\n* Speed Python2 0.06S\n* Speed Python3 0.02S",
     }
 
 read = {
@@ -265,7 +265,7 @@ def siderMembers(to, mid):
 def welcomeMembers(to, mid):
     try:
         arrData = ""
-        textx = "Toplam Üye Girişi「{}」\nMerhaba  ".format(str(len(mid)))
+        textx = "Nah ketemu lagi「{}」\nMerhaba  ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -293,7 +293,7 @@ def welcomeMembers(to, mid):
 def leaveMembers(to, mid):
     try:
         arrData = ""
-        textx = "Toplam Çıkan Üye「{}」\nByee  ".format(str(len(mid)))
+        textx = "Hemm korban Bapeerr lg pasti「{}」\nByee  ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -547,32 +547,32 @@ def infomeme():
 ┃🔰┃ sparta
 ┃🔰┃ aag
 ┃━━━━━━━━━━━━━━━━━━━━━━━
-┃    🎓 BY : ARIFISTIFIK 🎓
-┃ 💜 line.me/ti/p/~arif.mh 💜
+┃    🎓 BY : ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ 🎓
+┃ 💜 line.me/ti/p/~calon.almarhum99 💜
 ╰━━━━━━━━━━━━━━━━━━━━━━━
 """
     return helpMessage2
 def listharga():
     helpMessage3 = """
-#Price List ARIFISTIFIK :
+#Price List ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ :
 
-🤖 Bot Python2 :
-🔰 Self Bot Only ⏩ 80K/Bulan
+🤖 Jasa bikin 2anak :
+🔰 Male/Female Only ⏩ 80K/Minggu
 
-🤖 Bot Python3 :
-🔰 Self Bot Only ⏩ 100K/Bulan
-🔰 Self Bot + 4 Assist ⏩ 200K/Bulan
-🔰 Self Bot + 10 Assist + 2 Ghost + 1 AntiJS ⏩ 450K/Bulan
+🤖 Jasa Madu3 :
+🔰 Private Only ⏩ 100K/Minggu
+🔰 Private + Publik ⏩ 200K/Minggu
+🔰 Private + Publik + Legal + Certifi ⏩ 450K/Minggu
 
-✍️ Bisa Requests Mau Berapa Assist Buat Py3.
-Chat Ke : http://line.me/ti/p/~arif.mh
+✍️ Bisa Requests Mau Berapa Lama Buat Debay.
+Chat Ke : http://line.me/ti/p/~calon.almarhum99
 
 📃
 * Always on 24 Jam
-* Fitur Banyak
-* Speed Python2 0.06S
-* Speed Python3 0.02S
-# Buat Assist, Pake Akun Dari Kami Harga Beda Lagi.
+* Sensasi Banyak
+* Long Duration
+* Free Request
+# Buat Gadis, Dari Kami Harga Beda Lagi.
 """
 
 def translate():
@@ -689,8 +689,8 @@ def translate():
 groupParam = ""
 def SiriGetOut(targ):
     cl.kickoutFromGroup(groupParam,[targ])
-    #ar1.kickoutFromGroup(groupParam,[targ])
-    #ar2.kickoutFromGroup(groupParam,[targ])
+    #kk.kickoutFromGroup(groupParam,[targ])
+    #kc.kickoutFromGroup(groupParam,[targ])
 def byuh(targ):
     random.choice(KAC).kickoutFromGroup(groupParam,[targ])
 def bot(op):
@@ -758,11 +758,11 @@ def bot(op):
 
         if op.type == 55:
             try:
-                if op.param1 in Setmain["ARreadPoint"]:
-                   if op.param2 in Setmain["ARreadMember"][op.param1]:
+                if op.param1 in Setmain["phreadPoint"]:
+                   if op.param2 in Setmain["phreadMember"][op.param1]:
                        pass
                    else:
-                       Setmain["ARreadMember"][op.param1][op.param2] = True
+                       Setmain["phreadMember"][op.param1][op.param2] = True
                 else:
                    pass
             except:
@@ -1078,9 +1078,9 @@ def bot(op):
 
                if msg.contentType == 1:
                    if msg._from in admin:
-                       if mid in Setmain["ARfoto"]:
+                       if mid in Setmain["phfoto"]:
                             path = cl.downloadObjectMsg(msg_id)
-                            del Setmain["ARfoto"][mid]
+                            del Setmain["phfoto"][mid]
                             cl.updateProfilePicture(path)
                             cl.sendMessage(msg.to,"Foto berhasil dirubah")
 
@@ -1198,7 +1198,7 @@ def bot(op):
                         elif cmd == "about" or cmd == "informasi":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               sendMention(msg.to, sender, "「 Kırmızı Montlu 」\n")
+                               sendMention(msg.to, sender, "「 ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ 」\n")
                                cl.sendMessage(msg.to, None, contentMetadata={'mid': mid}, contentType=13)
 
                         elif cmd == "me" or text.lower() == 'me':
@@ -1330,11 +1330,11 @@ def bot(op):
                         elif cmd.startswith("mybackup"):
                             if msg._from in admin:
                                 try:
-                                    arifProfile.displayName = str(myProfile["displayName"])
-                                    arifProfile.statusMessage = str(myProfile["statusMessage"])
-                                    arifProfile.pictureStatus = str(myProfile["pictureStatus"])
+                                    PhieProfile.displayName = str(myProfile["displayName"])
+                                    PhieProfile.statusMessage = str(myProfile["statusMessage"])
+                                    PhieProfile.pictureStatus = str(myProfile["pictureStatus"])
                                     cl.updateProfileAttribute(8, arifProfile.pictureStatus)
-                                    cl.updateProfile(arifProfile)
+                                    cl.updateProfile(PhieProfile)
                                     cl.sendMessage(msg.to, "Berhasil restore profile tunggu beberapa saat sampai profile berubah")
                                 except:
                                             cl.sendMessage(msg.to, "Gagal restore profile")
@@ -1384,7 +1384,7 @@ def bot(op):
                         elif text.lower() == "resetnamecreator":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               Setmain["namecreator"] = "NADYA_AR"
+                               Setmain["namecreator"] = "ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™"
                                cl.sendMessage(msg.to, "「Change name creator」\nNama creator kembali ke awal")
 
                         elif cmd == "restart":
