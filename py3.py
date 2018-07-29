@@ -12,7 +12,7 @@ from googletrans import Translator
 import youtube_dl
 #BOT INI BUAT KALIAN YANG MEMANG MEMBUTUHKAN
 #cl = LineClient()
-cl = LineClient(authToken='EvJsiPduJq3HPq3x7Ene.mDIRQD+WthuKlYOGL7ITRG.rylDlzzqaCKKWt2cGkJ1lbNMd4Ct2GEsaBGh8VvToe4=')
+cl = LineClient(authToken='Ev7Y3QpQJubKxiOybEye.mDIRQD+WthuKlYOGL7ITRG.rJJSRFQ3AxFO9WC4QtOeoxGj93qO0Ba92sucqhgto50=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -417,61 +417,61 @@ def help():
                   "┃🔰┃ Gunakan「 " + key + " 」Di Depannya\n" + \
                   "┃🔰┃━━━━━━━━━━━━━━━━━" + "\n" + \
                   "┃🍁┃〔 Hiburan 〕🎰━━━━━━" + "\n" + \
-                  "┃🍁┃ " + key + "Musik:「Judul Lagu」\n" + \
-                  "┃🍁┃ " + key + "Musik2:「Judul Lagu」\n" + \
-                  "┃🍁┃ " + key + "Playlist「Nama Penyanyi」\n" + \
-                  "┃🍁┃ " + key + "Ytmp3:「Judul Lagu」\n" + \
-                  "┃🍁┃ " + key + "Ytmp4:「Judul Video\n" + \
-                  "┃🍁┃ " + key + "Fs:「Nama」\n" + \
-                  "┃🍁┃ " + key + "cl-telp:「No HP」\n" + \
-                  "┃🍁┃ " + key + "cl-sms:「No HP」\n" + \
-                  "┃🍁┃ " + key + "Smsgratis:「Nohp:Pesannya」\n" + \
-                  "┃🍁┃ " + key + "Meme@Nama@Teks1@Teks2\n" + \
-                  "┃🍁┃ " + key + "Quotes\n" + \
-                  "┃🍁┃ " + key + "1cak\n" + \
-                  "┃🍁┃ " + key + "Profilesmule:「ID Smule」\n" + \
-                  "┃🍁┃ " + key + "Randomnumber:「Nmor-Nmor」\n" + \
-                  "┃🍁┃ " + key + "Acaratv:「Nama Channel」\n" + \
-                  "┃🍁┃ " + key + "Gimage:「Keyword」\n" + \
-                  "┃🍁┃ " + key + "Img food:「Nama Makanan」\n" + \
-                  "┃🍁┃ " + key + "Al-quran:「Surah」\n" + \
-                  "┃🍁┃ " + key + "Sholat:「Nama Kota」\n" + \
-                  "┃🍁┃ " + key + "Cuaca:「Nama Kota」\n" + \
-                  "┃🍁┃ " + key + "Lokasi:「Nama Kota」\n" + \
-                  "┃🍁┃ " + key + "Profileig:「Nama IG」\n" + \
-                  "┃🍁┃ " + key + "Cekig:「Nama IG」\n" + \
-                  "┃🍁┃ " + key + "Cekdate:「tgl-bln-thn」\n" + \
-                  "┃🍁┃ " + key + "Spamtag:「jumlahnya」\n" + \
-                  "┃🍁┃ " + key + "Spamtag「@」\n" + \
-                  "┃🍁┃ " + key + "Spamcall:「jumlahnya」\n" + \
-                  "┃🍁┃ " + key + "Spamcall\n" + \
-                  "┃🍁┃ " + key + "ID line:「Id Line nya」\n" + \
+                  "┃🎭┃ " + key + "Musik:「Judul Lagu」\n" + \
+                  "┃🎭┃ " + key + "Musik2:「Judul Lagu」\n" + \
+                  "┃🎭┃ " + key + "Playlist「Nama Penyanyi」\n" + \
+                  "┃🎭┃ " + key + "Ytmp3:「Judul Lagu」\n" + \
+                  "┃🎭┃ " + key + "Ytmp4:「Judul Video\n" + \
+                  "┃🎭┃ " + key + "Fs:「Nama」\n" + \
+                  "┃🎭┃ " + key + "cl-telp:「No HP」\n" + \
+                  "┃🎭┃ " + key + "cl-sms:「No HP」\n" + \
+                  "┃🎭┃ " + key + "Smsgratis:「Nohp:Pesannya」\n" + \
+                  "┃🎭┃ " + key + "Meme@Nama@Teks1@Teks2\n" + \
+                  "┃🎭┃ " + key + "Quotes\n" + \
+                  "┃🎭┃ " + key + "1cak\n" + \
+                  "┃🎭┃ " + key + "Profilesmule:「ID Smule」\n" + \
+                  "┃🎭┃ " + key + "Randomnumber:「Nmor-Nmor」\n" + \
+                  "┃🎭┃ " + key + "Acaratv:「Nama Channel」\n" + \
+                  "┃🎭┃ " + key + "Gimage:「Keyword」\n" + \
+                  "┃🎭┃ " + key + "Img food:「Nama Makanan」\n" + \
+                  "┃🎭┃ " + key + "Al-quran:「Surah」\n" + \
+                  "┃🎭┃ " + key + "Sholat:「Nama Kota」\n" + \
+                  "┃🎭┃ " + key + "Cuaca:「Nama Kota」\n" + \
+                  "┃🎭┃ " + key + "Lokasi:「Nama Kota」\n" + \
+                  "┃🎭┃ " + key + "Profileig:「Nama IG」\n" + \
+                  "┃🎭┃ " + key + "Cekig:「Nama IG」\n" + \
+                  "┃🎭┃ " + key + "Cekdate:「tgl-bln-thn」\n" + \
+                  "┃🎭┃ " + key + "Spamtag:「jumlahnya」\n" + \
+                  "┃🎭┃ " + key + "Spamtag「@」\n" + \
+                  "┃🎭┃ " + key + "Spamcall:「jumlahnya」\n" + \
+                  "┃🎭┃ " + key + "Spamcall\n" + \
+                  "┃🎭┃ " + key + "ID line:「Id Line nya」\n" + \
                   "┃🍁┃" + "\n" + \
                   "┃🍁┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
                   "┃🔵┃🎰〔 Settings 〕🎰━━━━━━━" + "\n" + \
-                  "┃🔵┃ " + key + "Unsend「on/off」\n" + \
-                  "┃🔵┃ " + key + "Jointicket「on/off」\n" + \
-                  "┃🔵┃ " + key + "Sticker「on/off」\n" + \
-                  "┃🔵┃ " + key + "Respon「on/off」\n" + \
-                  "┃🔵┃ " + key + "Respongift「on/off」\n" + \
-                  "┃🔵┃ " + key + "Contact「on/off」\n" + \
-                  "┃🔵┃ " + key + "Autojoin「on/off」\n" + \
-                  "┃🔵┃ " + key + "Autoadd「on/off」\n" + \
-                  "┃🔵┃ " + key + "Welcome「on/off」\n" + \
-                  "┃🔵┃ " + key + "Simi「on/off」\n" + \
-                  "┃🔵┃ " + key + "Autoleave「on/off」\n" + \
+                  "┃🎭┃ " + key + "Unsend「on/off」\n" + \
+                  "┃🎭┃ " + key + "Jointicket「on/off」\n" + \
+                  "┃🎭┃ " + key + "Sticker「on/off」\n" + \
+                  "┃🎭┃ " + key + "Respon「on/off」\n" + \
+                  "┃🎭┃ " + key + "Respongift「on/off」\n" + \
+                  "┃🎭┃ " + key + "Contact「on/off」\n" + \
+                  "┃🎭┃ " + key + "Autojoin「on/off」\n" + \
+                  "┃🎭┃ " + key + "Autoadd「on/off」\n" + \
+                  "┃🎭┃ " + key + "Welcome「on/off」\n" + \
+                  "┃🎭┃ " + key + "Simi「on/off」\n" + \
+                  "┃🎭┃ " + key + "Autoleave「on/off」\n" + \
                   "┃🔵┃" + "\n" + \
                   "┃🔵┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
                   "┃🔵┃━━━━━━━━━━━━━━━━━━━" + "\n" + \
                   "┃🔵┃🎰〔 Admin 〕🎰━━━━━━" + "\n" + \
-                  "┃🔵┃ " + key + "Changenamecreator:「Nama」\n" + \
-                  "┃🔵┃ " + key + "Resetnamecreator\n" + \
-                  "┃🔵┃ " + key + "Admin:on\n" + \
-                  "┃🔵┃ " + key + "Admin:repeat\n" + \
-                  "┃🔵┃ " + key + "Adminadd「@」\n" + \
-                  "┃🔵┃ " + key + "Admindell「@」\n" + \
-                  "┃🔵┃ " + key + "Refresh\n" + \
-                  "┃🔵┃ " + key + "Listadmin\n" + \
+                  "┃🎭┃ " + key + "Changenamecreator:「Nama」\n" + \
+                  "┃🎭┃ " + key + "Resetnamecreator\n" + \
+                  "┃🎭┃ " + key + "Admin:on\n" + \
+                  "┃🎭┃ " + key + "Admin:repeat\n" + \
+                  "┃🎭┃ " + key + "Adminadd「@」\n" + \
+                  "┃🎭┃ " + key + "Admindell「@」\n" + \
+                  "┃🎭┃ " + key + "Refresh\n" + \
+                  "┃🎭┃ " + key + "Listadmin\n" + \
                   "┃🔵┃" + "\n" + \
                   "┃🔵┃🔐 Ketik「 Refresh 」Jika Sudah\n┃🔐┃Menggunakan Command Diatas...\n" + \
                   "┃🔵┃━━━━━━━━━━━━━━━━━" + "\n" + \
@@ -1425,7 +1425,7 @@ def bot(op):
                                     gTicket = "https://line.me/R/ti/g/{}".format(str(cl.reissueGroupTicket(G.id)))
                                 timeCreated = []
                                 timeCreated.append(time.strftime("%d-%m-%Y [ %H:%M:%S ]", time.localtime(int(G.createdTime) / 1000)))
-                                cl.sendMessage(msg.to, "☬ BOT Grup Info\n\n ☬ Nama Group : {}".format(G.name)+ "\n🔰 ID Group : {}".format(G.id)+ "\n🔰 Pembuat : {}".format(G.creator.displayName)+ "\n🔰 Waktu Dibuat : {}".format(str(timeCreated))+ "\n🔰 Jumlah Member : {}".format(str(len(G.members)))+ "\n🔰 Jumlah Pending : {}".format(gPending)+ "\n🔰 Group Qr : {}".format(gQr)+ "\n🔰 Group Ticket : {}".format(gTicket))
+                                cl.sendMessage(msg.to, "💻 BOT Grup Info\n\n 💻 Nama Group : {}".format(G.name)+ "\n🔰 ID Group : {}".format(G.id)+ "\n🔰 Pembuat : {}".format(G.creator.displayName)+ "\n🔰 Waktu Dibuat : {}".format(str(timeCreated))+ "\n🔰 Jumlah Member : {}".format(str(len(G.members)))+ "\n🔰 Jumlah Pending : {}".format(gPending)+ "\n🔰 Group Qr : {}".format(gQr)+ "\n🔰 Group Ticket : {}".format(gTicket))
                                 cl.sendMessage(msg.to, None, contentMetadata={'mid': G.creator.mid}, contentType=13)
                                 cl.sendImageWithURL(msg.to, 'http://dl.profile.line-cdn.net/'+G.pictureStatus)
                             except Exception as e:
@@ -1722,7 +1722,7 @@ def bot(op):
 
                         elif cmd == "lurkers":
                           if msg._from in admin:
-                            if msg.to in Setmain['ARreadPoint']:
+                            if msg.to in Setmain['phreadPoint']:
                                 if Setmain['phreadMember'][msg.to] != {}:
                                     aa = []
                                     for x in Setmain['phreadMember'][msg.to]:
@@ -2093,7 +2093,7 @@ def bot(op):
                                 separate = msg.text.split(" ")
                                 nohp = msg.text.replace(separate[0] + " ","")
                                 r = requests.get("https://farzain.xyz/api/cl.php?id="+nohp+"&type=2")
-                                cl.sendMessage(msg.to, "「 cl Telepon 」\n☬ Status : Success!!!\n☬ No Tujuan : "+nohp)
+                                cl.sendMessage(msg.to, "「 cl Telepon 」\n💻 Status : Success!!!\n💻 No Tujuan : "+nohp)
                             except Exception as error:
                                 pass
 
@@ -2103,7 +2103,7 @@ def bot(op):
                                 separate = msg.text.split(" ")
                                 nohp = msg.text.replace(separate[0] + " ","")
                                 r = requests.get("https://farzain.xyz/api/cl.php?id="+nohp+"&type=1")
-                                cl.sendMessage(msg.to, "「 cl Sms 」\n☬ Status : Success!!!\n☬ No Tujuan : "+nohp)
+                                cl.sendMessage(msg.to, "「 cl Sms 」\n💻 Status : Success!!!\n💻 No Tujuan : "+nohp)
                             except Exception as error:
                                 pass
 
@@ -2116,7 +2116,7 @@ def bot(op):
                                 num2 = tgb[1]
                                 r = requests.get("https://corrykalam.gq/sms.php?no="+num1+"&text="+num2)
                                 data = r.json()
-                                cl.sendMessage(msg.to, "「 Sms Gratis 」\n☬ Status : "+str(data["status"])+"!!!\n☬ No Tujuan : "+num1+"\n☬ Pesannya : "+num2+"\n☬ Detail : "+str(data["detail"]))
+                                cl.sendMessage(msg.to, "「 Sms Gratis 」\n💻 Status : "+str(data["status"])+"!!!\n💻 No Tujuan : "+num1+"\n💻 Pesannya : "+num2+"\n💻 Detail : "+str(data["detail"]))
 
                         elif cmd.startswith("cl call: "):
                           if msg._from in admin:
@@ -2179,11 +2179,11 @@ def bot(op):
                                     me = best.url
                                     hasil = ""
                                     title = "Judul [ " + vid.title + " ]"
-                                    author = '\n\n☬ Author : ' + str(vid.author)
-                                    durasi = '\n☬ Duration : ' + str(vid.duration)
-                                    suka = '\n☬ Likes : ' + str(vid.likes)
-                                    rating = '\n☬ Rating : ' + str(vid.rating)
-                                    deskripsi = '\n☬ Deskripsi : ' + str(vid.description)
+                                    author = '\n\n🎥 Author : ' + str(vid.author)
+                                    durasi = '\n🎥 Duration : ' + str(vid.duration)
+                                    suka = '\n🎥 Likes : ' + str(vid.likes)
+                                    rating = '\n🎥 Rating : ' + str(vid.rating)
+                                    deskripsi = '\n🎥 Deskripsi : ' + str(vid.description)
                                 cl.sendVideoWithURL(msg.to, me)
                                 cl.sendMessage(msg.to,title+ author+ durasi+ suka+ rating+ deskripsi)
                             except Exception as e:
@@ -2217,11 +2217,11 @@ def bot(op):
                                     vin = s.url
                                     hasil = ""
                                     title = "Judul [ " + vid.title + " ]"
-                                    author = '\n\n☬ Author : ' + str(vid.author)
-                                    durasi = '\n☬ Duration : ' + str(vid.duration)
-                                    suka = '\n☬ Likes : ' + str(vid.likes)
-                                    rating = '\n☬ Rating : ' + str(vid.rating)
-                                    deskripsi = '\n☬ Deskripsi : ' + str(vid.description)
+                                    author = '\n\n📽 Author : ' + str(vid.author)
+                                    durasi = '\n📽 Duration : ' + str(vid.duration)
+                                    suka = '\n📽 Likes : ' + str(vid.likes)
+                                    rating = '\n📽 Rating : ' + str(vid.rating)
+                                    deskripsi = '\n📽 Deskripsi : ' + str(vid.description)
                                 cl.sendImageWithURL(msg.to, me)
                                 cl.sendAudioWithURL(msg.to, shi)
                                 cl.sendMessage(msg.to,title+ author+ durasi+ suka+ rating+ deskripsi)
