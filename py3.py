@@ -107,7 +107,7 @@ wait = {
     "welcome":"Nah Calon Tikungan Baru",
     "leave":"NAH LOH BAPER KHAAAN KHAAAN ,KEBANYAKAN DRAMA SIHH..😂",
     "comment":"Like by JEM_BOT",
-    "message":"#Price List ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ :\n\n🤖 Bot Python2 :\n🔰 Self Bot Only ⏩ 80K/Bulan\n\n🤖 Bot Python3 :\n🔰 Self Bot Only ⏩ 100K/Bulan\n🔰 Self Bot + 4 Assist\n🔰 Self Bot + 10 Assist + 2 Ghost + 1 AntiJS ⏩ 450K/Bulan\n\n✍️ Bisa Requests Mau Berapa Assist Buat Py3.\nChat Ke : http://line.me/ti/p/~calon.almarhum99\n\n📃\n* Always on 24 Jam\n* Fitur Banyak\n* Speed Python2 0.06S\n* Speed Python3 0.02S",
+    "message":"ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ :\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : http://line.me/ti/p/~calon.almarhum99\n\n📃\n* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
     }
 
 read = {
@@ -357,13 +357,13 @@ def help():
     key = key.title()
     key2 = Setmain["namecreator"]
     key2 = key2.title()
-    helpMessage = "╭━━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🔰┃🇩🍁"+ key2 +" 🍁🇩" + "\n" + \
+    helpMessage = "╭━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃🔰┃🎰"+ key2 +" 🎰" + "\n" + \
                   "┃🔰┃" + "\n" + \
-                  "┃🔰┃━━🍁〔 Help Message 〕🍁━━" + "\n" + \
+                  "┃🔰┃━━🎰〔 Help Message 〕🎰━━" + "\n" + \
                   "┃🔰┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃🔰┃━━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🔰┃🍁〔 Menu 〕🍁━━━━━━━━" + "\n" + \
+                  "┃🔰┃━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃🔰┃🎰〔 Menu 〕🎰━━━━━━" + "\n" + \
                   "┃🔰┃ " + key + "Help\n" + \
                   "┃🔰┃ " + key + "Help bot\n" + \
                   "┃🔰┃ " + key + "Translate\n" + \
@@ -415,8 +415,8 @@ def help():
                   "┃🔰┃ " + key + "Resetkey\n" + \
                   "┃🔰┃" + "\n" + \
                   "┃🔰┃ Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃🔰┃━━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🍁┃〔 Hiburan 〕🍁━━━━━━━━" + "\n" + \
+                  "┃🔰┃━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃🍁┃〔 Hiburan 〕🎰━━━━━━" + "\n" + \
                   "┃🍁┃ " + key + "Musik:「Judul Lagu」\n" + \
                   "┃🍁┃ " + key + "Musik2:「Judul Lagu」\n" + \
                   "┃🍁┃ " + key + "Playlist「Nama Penyanyi」\n" + \
@@ -448,7 +448,7 @@ def help():
                   "┃🍁┃ " + key + "ID line:「Id Line nya」\n" + \
                   "┃🍁┃" + "\n" + \
                   "┃🍁┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃🔵┃🍁〔 Settings 〕🍁━━━━━━━━━" + "\n" + \
+                  "┃🔵┃🎰〔 Settings 〕🎰━━━━━━━" + "\n" + \
                   "┃🔵┃ " + key + "Unsend「on/off」\n" + \
                   "┃🔵┃ " + key + "Jointicket「on/off」\n" + \
                   "┃🔵┃ " + key + "Sticker「on/off」\n" + \
@@ -463,7 +463,7 @@ def help():
                   "┃🔵┃" + "\n" + \
                   "┃🔵┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
                   "┃🔵┃━━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🔵┃🍁〔 Admin 〕🍁━━━━━━━━" + "\n" + \
+                  "┃🔵┃🎰〔 Admin 〕🎰━━━━━━" + "\n" + \
                   "┃🔵┃ " + key + "Changenamecreator:「Nama」\n" + \
                   "┃🔵┃ " + key + "Resetnamecreator\n" + \
                   "┃🔵┃ " + key + "Admin:on\n" + \
@@ -473,10 +473,10 @@ def help():
                   "┃🔵┃ " + key + "Refresh\n" + \
                   "┃🔵┃ " + key + "Listadmin\n" + \
                   "┃🔵┃" + "\n" + \
-                  "┃🔵┃🔵 Ketik「 Refresh 」Jika Sudah\n┃🔵┃Menggunakan Command Diatas...\n" + \
-                  "┃🔵┃━━━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃🔵┃🔐 Ketik「 Refresh 」Jika Sudah\n┃🔐┃Menggunakan Command Diatas...\n" + \
+                  "┃🔵┃━━━━━━━━━━━━━━━━━" + "\n" + \
                   "┃🔵┃" + "\n" + \
-                  "╰━━━〔 USER: ©"+ key2 + "™  〕"
+                  "╰━━━〔 USER BY: ™"+ key2 + "™  〕"
     return helpMessage
 
 
@@ -486,13 +486,13 @@ def helarot():
     key = key.title()
     key2 = Setmain["namecreator"]
     key2 = key2.title()
-    helpMessage1 = "╭━━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🇩🍁"+ key2 +" 🍁🇩" + "\n" + \
+    helpMessage1 = "╭━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃"+ key2 +" 🎰" + "\n" + \
                   "┃" + "\n" + \
-                  "┃━━🍁〔 Help Bot 〕🍁━━" + "\n" + \
-                  "┃🇮🇩 Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃━━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🍁〔 Menu 〕🍁━━━━━━━━" + "\n" + \
+                  "┃━━🎰〔 Help Bot 〕🎰━━" + "\n" + \
+                  "┃🎰 Gunakan「 " + key + " 」Di Depannya\n" + \
+                  "┃━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃🎰〔 Menu 〕🎰━━━━━━" + "\n" + \
                   "┃🔥┃ " + key + "Cek sider\n" + \
                   "┃🔥┃ " + key + "Cek spam\n" + \
                   "┃🔥┃ " + key + "Cek pesan\n" + \
@@ -510,16 +510,16 @@ def helarot():
                   "┃🔥┃ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
                   "┃" + "\n" + \
                   "┃🔥 Ketik「 Refresh 」Jika Sudah\n┃Menggunakan Command Diatas...\n" + \
-                  "┃━━━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃━━━━━━━━━━━━━━━━━" + "\n" + \
                   "┃" + "\n" + \
-                  "╰━〔 USER: ©"+ key2 +"™  〕"
+                  "╰━〔 USER BY: ™"+ key2 +"™  〕"
     return helpMessage1
 
 def infomeme():
     helpMessage2 = """
-╭━━━━━━━━━━━━━━━━━━━━━━━
+╭━━━━━━━━━━━━━━━━━━━━━
 ┃         🔰 Meme List 🔰
-┃━━━━━━━━━━━━━━━━━━━━━━━
+┃━━━━━━━━━━━━━━━━━━━━━
 ┃🔰┃ Buzz
 ┃🔰┃ Spongebob
 ┃🔰┃ Patrick
@@ -546,10 +546,10 @@ def infomeme():
 ┃🔰┃ sk
 ┃🔰┃ sparta
 ┃🔰┃ aag
-┃━━━━━━━━━━━━━━━━━━━━━━━
+┃━━━━━━━━━━━━━━━━━━━━━
 ┃    🎓 BY : ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ 🎓
-┃ 💜 line.me/ti/p/~calon.almarhum99 💜
-╰━━━━━━━━━━━━━━━━━━━━━━━
+┃ 🛅 line.me/ti/p/~calon.almarhum99 🛅
+╰━━━━━━━━━━━━━━━━━━━━━
 """
     return helpMessage2
 def listharga():
@@ -557,12 +557,12 @@ def listharga():
 #Price List ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ :
 
 🤖 Jasa bikin 2anak :
-🔰 Male/Female Only ⏩ 80K/Minggu
+🔰 Male/Female Only ⏩ 150K/Minggu
 
 🤖 Jasa Madu3 :
 🔰 Private Only ⏩ 100K/Minggu
 🔰 Private + Publik ⏩ 200K/Minggu
-🔰 Private + Publik + Legal + Certifi ⏩ 450K/Minggu
+🔰 Private + Publik + Legal + Certifikasi ⏩ 250K/Minggu
 
 ✍️ Bisa Requests Mau Berapa Lama Buat Debay.
 Chat Ke : http://line.me/ti/p/~calon.almarhum99
@@ -689,8 +689,8 @@ def translate():
 groupParam = ""
 def SiriGetOut(targ):
     cl.kickoutFromGroup(groupParam,[targ])
+    #ki.kickoutFromGroup(groupParam,[targ])
     #kk.kickoutFromGroup(groupParam,[targ])
-    #kc.kickoutFromGroup(groupParam,[targ])
 def byuh(targ):
     random.choice(KAC).kickoutFromGroup(groupParam,[targ])
 def bot(op):
@@ -1141,51 +1141,51 @@ def bot(op):
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 md = "╭━━━━━━━━━━━━━━━━━━━━━━━\n┃          🔰 S T A T U S 🔰\n┃━━━━━━━━━━━━━━━━━━━━━━━\n"
-                                if wait["unsend"] == True: md+="┃🔰┃ ✔️ Unsend「ON」\n"
-                                else: md+="┃🔰┃ ✖ Unsend「OFF」\n"
-                                if wait["sticker"] == True: md+="┃🔰┃ ✔️ Sticker「ON」\n"
-                                else: md+="┃🔰┃ ✖ Sticker「OFF」\n"
-                                if wait["contact"] == True: md+="┃🔰┃ ✔️ Contact「ON」\n"
-                                else: md+="┃🔰┃ ✖ Contact「OFF」\n"
-                                if wait["Mentionkick"] == True: md+="┃🔰┃ ✔️ Notag「ON」\n"
-                                else: md+="┃🔰┃ ✖ Notag「OFF」\n"
-                                if wait["detectMention"] == True: md+="┃🔰┃ ✔️ Respon「ON」\n"
-                                else: md+="┃🔰┃ ✖ Respon「OFF」\n"
-                                if wait["Mentiongift"] == True: md+="┃🔰┃ ✔️ Respongift「ON」\n"
-                                else: md+="┃🔰┃ ✖ Respongift「OFF」\n"
-                                if wait["autoJoin"] == True: md+="┃🔰┃ ✔️ Autojoin「ON」\n"
-                                else: md+="┃🔰┃ ✖ Autojoin「OFF」\n"
-                                if settings["autoJoinTicket"] == True: md+="┃🔰┃ ✔️ Join Ticket「ON」\n"
-                                else: md+="┃🔰┃ ✖ Join Ticket「OFF」\n"
-                                if msg.to in simisimi: md+="┃🔰┃ ✔️ Simisimi「ON」\n"
-                                else: md+="┃🔰┃ ✖ Simisimi「OFF」\n"
-                                if wait["autoAdd"] == True: md+="┃🔰┃ ✔️ Autoadd「ON」\n"
-                                else: md+="┃🔰┃ ✖ Autoadd「OFF」\n"
-                                if msg.to in welcome: md+="┃🔰┃ ✔️ Welcome「ON」\n"
-                                else: md+="┃🔰┃ ✖ Welcome「OFF」\n"
-                                if wait["autoLeave"] == True: md+="┃🔰┃ ✔️ Autoleave「ON」\n"
-                                else: md+="┃🔰┃ ✖ Autoleave「OFF」\n"
-                                cl.sendMessage(msg.to, md+"┃━━━━━━━━━━━━━━━━━━━━━━━\n┃☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n╰━━━━━━━━━━━━━━━━━━━━━━━")
+                                if wait["unsend"] == True: md+="┃🔰┃ 🔊 Unsend「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Unsend「OFF」\n"
+                                if wait["sticker"] == True: md+="┃🔰┃ 🔊 Sticker「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Sticker「OFF」\n"
+                                if wait["contact"] == True: md+="┃🔰┃ 🔊 Contact「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Contact「OFF」\n"
+                                if wait["Mentionkick"] == True: md+="┃🔰┃ 🔊 Notag「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Notag「OFF」\n"
+                                if wait["detectMention"] == True: md+="┃🔰┃ 🔊 Respon「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Respon「OFF」\n"
+                                if wait["Mentiongift"] == True: md+="┃🔰┃ 🔊 Respongift「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Respongift「OFF」\n"
+                                if wait["autoJoin"] == True: md+="┃🔰┃ 🔊 Autojoin「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Autojoin「OFF」\n"
+                                if settings["autoJoinTicket"] == True: md+="┃🔰┃ 🔊 Join Ticket「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Join Ticket「OFF」\n"
+                                if msg.to in simisimi: md+="┃🔰┃ 🔊 Simisimi「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Simisimi「OFF」\n"
+                                if wait["autoAdd"] == True: md+="┃🔰┃ 🔊 Autoadd「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Autoadd「OFF」\n"
+                                if msg.to in welcome: md+="┃🔰┃ 🔊 Welcome「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Welcome「OFF」\n"
+                                if wait["autoLeave"] == True: md+="┃🔰┃ 🔊 Autoleave「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Autoleave「OFF」\n"
+                                cl.sendMessage(msg.to, md+"┃━━━━━━━━━━━━━━━━━━━━━\n┃☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n╰━━━━━━━━━━━━━━━━━━━━━")
 
                         elif cmd == "status translate":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "╭━━━━━━━━━━━━━━━━━━━━━━━\n┃ 🔰 STATUS TRANSLATE 🔰\n┃━━━━━━━━━━━━━━━━━━━━━━━\n"
-                                if msg.to in translatetr: md+="┃🔰┃ ✔️ Turkish「ON」\n"
-                                else: md+="┃🔰┃ ✖ Turkish 「OFF」\n"
-                                if msg.to in translateen: md+="┃🔰┃ ✔️ English「ON」\n"
-                                else: md+="┃🔰┃ ✖ English「OFF」\n"
-                                if msg.to in translateid: md+="┃🔰┃ ✔️ Indonesia「ON」\n"
-                                else: md+="┃🔰┃ ✖ Indonesia「OFF」\n"
-                                if msg.to in translateth: md+="┃🔰┃ ✔️ Thailand「ON」\n"
-                                else: md+="┃🔰┃ ✖ Thailand「OFF」\n"
-                                if msg.to in translatetw: md+="┃🔰┃ ✔️ Taiwan「ON」\n"
-                                else: md+="┃🔰┃ ✖ Taiwan「OFF」\n"
-                                if msg.to in translatear: md+="┃🔰┃ ✔️ Arab「ON」\n"
-                                else: md+="┃🔰┃ ✖ Arab「OFF」\n"
-                                cl.sendMessage(msg.to, md+"┃━━━━━━━━━━━━━━━━━━━━━━━\n┃☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n╰━━━━━━━━━━━━━━━━━━━━━━━")
+                                md = "╭━━━━━━━━━━━━━━━━━━━━━\n┃ 🔰 STATUS TRANSLATE 🔰\n┃━━━━━━━━━━━━━━━━━━━━━\n"
+                                if msg.to in translatetr: md+="┃🔰┃ 🔊 Turkish「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Turkish 「OFF」\n"
+                                if msg.to in translateen: md+="┃🔰┃ 🔊 English「ON」\n"
+                                else: md+="┃🔰┃ 🔇 English「OFF」\n"
+                                if msg.to in translateid: md+="┃🔰┃ 🔊 Indonesia「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Indonesia「OFF」\n"
+                                if msg.to in translateth: md+="┃🔰┃ 🔊 Thailand「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Thailand「OFF」\n"
+                                if msg.to in translatetw: md+="┃🔰┃ 🔊 Taiwan「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Taiwan「OFF」\n"
+                                if msg.to in translatear: md+="┃🔰┃ 🔊 Arab「ON」\n"
+                                else: md+="┃🔰┃ 🔇 Arab「OFF」\n"
+                                cl.sendMessage(msg.to, md+"┃━━━━━━━━━━━━━━━━━━━━━\n┃☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n╰━━━━━━━━━━━━━━━━━━━━━")
 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
@@ -1456,15 +1456,15 @@ def bot(op):
                                     gTicket = "https://line.me/R/ti/g/{}".format(str(cl.reissueGroupTicket(G.id)))
                                 timeCreated = []
                                 timeCreated.append(time.strftime("%d-%m-%Y [ %H:%M:%S ]", time.localtime(int(G.createdTime) / 1000)))
-                                ret_ += "☬ BOT Grup Info\n"
-                                ret_ += "\n☬ Nama Group : {}".format(G.name)
-                                ret_ += "\n☬ ID Group : {}".format(G.id)
-                                ret_ += "\n☬ Pembuat : {}".format(gCreator)
-                                ret_ += "\n☬ Waktu Dibuat : {}".format(str(timeCreated))
-                                ret_ += "\n☬ Jumlah Member : {}".format(str(len(G.members)))
-                                ret_ += "\n☬ Jumlah Pending : {}".format(gPending)
-                                ret_ += "\n☬ Group Qr : {}".format(gQr)
-                                ret_ += "\n☬ Group Ticket : {}".format(gTicket)
+                                ret_ += "🖥 BOT Grup Info\n"
+                                ret_ += "\n🖥 Nama Group : {}".format(G.name)
+                                ret_ += "\n🖥 ID Group : {}".format(G.id)
+                                ret_ += "\n🖥 Pembuat : {}".format(gCreator)
+                                ret_ += "\n🖥 Waktu Dibuat : {}".format(str(timeCreated))
+                                ret_ += "\n🖥 Jumlah Member : {}".format(str(len(G.members)))
+                                ret_ += "\n🖥 Jumlah Pending : {}".format(gPending)
+                                ret_ += "\n🖥 Group Qr : {}".format(gQr)
+                                ret_ += "\n🖥 Group Ticket : {}".format(gTicket)
                                 ret_ += ""
                                 cl.sendMessage(to, str(ret_))
                             except:
@@ -1483,8 +1483,8 @@ def bot(op):
                                 ret_ = ""
                                 for mem in G.members:
                                     no += 1
-                                    ret_ += "\n " "☬ "+ str(no) + ". " + mem.displayName
-                                cl.sendMessage(to,"☬ Group Name : [ " + str(G.name) + " ]\n\n   [ List Member ]\n" + ret_ + "\n\n「Total %i Members」" % len(G.members))
+                                    ret_ += "\n " "💻 "+ str(no) + ". " + mem.displayName
+                                cl.sendMessage(to,"💻 Group Name : [ " + str(G.name) + " ]\n\n   [ List Member ]\n" + ret_ + "\n\n「Total %i Members」" % len(G.members))
                             except:
                                 pass
 
@@ -1671,7 +1671,7 @@ def bot(op):
                                     b = b + 1
                                     end = '\n'
                                     mb += str(b) + ". " +cl.getContact(m_id).displayName + "\n"
-                                cl.sendMessage(msg.to,"☬ BOT admin\n\nAdmin:\n"+mb+"\nTotal「%s」Admin" %(str(len(admin))))
+                                cl.sendMessage(msg.to,"💻 BOT admin\n\nAdmin:\n"+mb+"\nTotal「%s」Admin" %(str(len(admin))))
 
                         elif cmd == "byeme":
                           if wait["selfbot"] == True:
@@ -1692,7 +1692,7 @@ def bot(op):
                                 get_contact_time_start = time.time()
                                 get_contact = cl.getContact(mid)
                                 get_contact_time = time.time() - get_contact_time_start
-                                cl.sendMessage(msg.to, " ☬ BOT Speed respon\n\n - Get Profile\n   %.10f\n - Get Contact\n   %.10f\n - Get Group\n   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
+                                cl.sendMessage(msg.to, " 💻 BOT Speed respon\n\n - Get Profile\n   %.10f\n - Get Contact\n   %.10f\n - Get Group\n   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
 
                         elif cmd == "speed" or cmd == "sp":
                           if wait["selfbot"] == True:
@@ -1707,8 +1707,8 @@ def bot(op):
                             if msg._from in admin:
                                  tz = pytz.timezone("Asia/Jakarta")
                                  timeNow = datetime.now(tz=tz)
-                                 Setmain['ARreadPoint'][msg.to] = msg_id
-                                 Setmain['ARreadMember'][msg.to] = {}
+                                 Setmain['phreadPoint'][msg.to] = msg_id
+                                 Setmain['phreadMember'][msg.to] = {}
                                  cl.sendMessage(msg.to, "Lurking berhasil diaktifkan\n\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
 
                         elif cmd == "lurking off":
@@ -1716,16 +1716,16 @@ def bot(op):
                             if msg._from in admin:
                                  tz = pytz.timezone("Asia/Jakarta")
                                  timeNow = datetime.now(tz=tz)
-                                 del Setmain['ARreadPoint'][msg.to]
-                                 del Setmain['ARreadMember'][msg.to]
+                                 del Setmain['phreadPoint'][msg.to]
+                                 del Setmain['phreadMember'][msg.to]
                                  cl.sendMessage(msg.to, "Lurking berhasil dinoaktifkan\n\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
 
                         elif cmd == "lurkers":
                           if msg._from in admin:
                             if msg.to in Setmain['ARreadPoint']:
-                                if Setmain['ARreadMember'][msg.to] != {}:
+                                if Setmain['phreadMember'][msg.to] != {}:
                                     aa = []
-                                    for x in Setmain['ARreadMember'][msg.to]:
+                                    for x in Setmain['phreadMember'][msg.to]:
                                         aa.append(x)
                                     try:
                                         arrData = ""
@@ -1760,12 +1760,12 @@ def bot(op):
                                     except:
                                         pass
                                     try:
-                                        del Setmain['ARreadPoint'][msg.to]
-                                        del Setmain['ARreadMember'][msg.to]
+                                        del Setmain['phreadPoint'][msg.to]
+                                        del Setmain['phreadMember'][msg.to]
                                     except:
                                         pass
-                                    Setmain['ARreadPoint'][msg.to] = msg.id
-                                    Setmain['ARreadMember'][msg.to] = {}
+                                    Setmain['phreadPoint'][msg.to] = msg.id
+                                    Setmain['phreadMember'][msg.to] = {}
                                 else:
                                     cl.sendMessage(msg.to, "User kosong...")
                             else:
@@ -1812,12 +1812,12 @@ def bot(op):
                                   timeNow = datetime.now(tz=tz)
                                   if data[1] != "Subuh : " and data[2] != "Dzuhur : " and data[3] != "Ashar : " and data[4] != "Maghrib : " and data[5] != "Isha : ":
                                          ret_ = "「Jadwal Sholat」"
-                                         ret_ += "\n☬ Lokasi : " + data[0]
-                                         ret_ += "\n☬ " + data[1]
-                                         ret_ += "\n☬ " + data[2]
-                                         ret_ += "\n☬ " + data[3]
-                                         ret_ += "\n☬ " + data[4]
-                                         ret_ += "\n☬ " + data[5]
+                                         ret_ += "\n💻 Lokasi : " + data[0]
+                                         ret_ += "\n💻 " + data[1]
+                                         ret_ += "\n💻 " + data[2]
+                                         ret_ += "\n💻 " + data[3]
+                                         ret_ += "\n💻 " + data[4]
+                                         ret_ += "\n💻 " + data[5]
                                          ret_ += "\n\nTanggal : " + datetime.strftime(timeNow,'%Y-%m-%d')
                                          ret_ += "\nJam : " + datetime.strftime(timeNow,'%H:%M:%S')
                                   cl.sendMessage(msg.to, str(ret_))
@@ -1835,11 +1835,11 @@ def bot(op):
                                 timeNow = datetime.now(tz=tz)
                                 if "result" not in data:
                                     ret_ = "「Status Cuaca」"
-                                    ret_ += "\n☬ Lokasi : " + data[0].replace("Temperatur di kota ","")
-                                    ret_ += "\n☬ Suhu : " + data[1].replace("Suhu : ","") + " C"
-                                    ret_ += "\n☬ Kelembaban : " + data[2].replace("Kelembaban : ","") + " %"
-                                    ret_ += "\n☬ Tekanan udara : " + data[3].replace("Tekanan udara : ","") + " HPa"
-                                    ret_ += "\n☬ Kecepatan angin : " + data[4].replace("Kecepatan angin : ","") + " m/s"
+                                    ret_ += "\n🌎 Lokasi : " + data[0].replace("Temperatur di kota ","")
+                                    ret_ += "\n🌦 Suhu : " + data[1].replace("Suhu : ","") + " C"
+                                    ret_ += "\n🌦 Kelembaban : " + data[2].replace("Kelembaban : ","") + " %"
+                                    ret_ += "\n🌦 Tekanan udara : " + data[3].replace("Tekanan udara : ","") + " HPa"
+                                    ret_ += "\n🌦 Kecepatan angin : " + data[4].replace("Kecepatan angin : ","") + " m/s"
                                     ret_ += "\n\nTanggal : " + datetime.strftime(timeNow,'%Y-%m-%d')
                                     ret_ += "\nJam : " + datetime.strftime(timeNow,'%H:%M:%S')
                                 cl.sendMessage(msg.to, str(ret_))
@@ -1856,8 +1856,8 @@ def bot(op):
                                 if data[0] != "" and data[1] != "" and data[2] != "":
                                     link = "https://www.google.co.id/maps/@{},{},15z".format(str(data[1]), str(data[2]))
                                     ret_ = "「Info Lokasi」"
-                                    ret_ += "\n☬ Location : " + data[0]
-                                    ret_ += "\n☬ Google Maps : " + link
+                                    ret_ += "\n🌎 Location : " + data[0]
+                                    ret_ += "\n🔎 Google Maps : " + link
                                 else:
                                     ret_ = "[Details Location] Error : Location not found"
                                 cl.sendMessage(msg.to,str(ret_))
@@ -1902,13 +1902,13 @@ def bot(op):
                                 data = json.loads(data)
                                 if len(cond) == 1:
                                     num = 0
-                                    ret_ = "━━━━[ List Lagu ]━━━━"
+                                    ret_ = "━━━[ List Lagu ]━━━"
                                     for music in data["result"]:
                                         num += 1
                                         ret_ += "\n {}. {}".format(str(num), str(music["single"]))
                                     ret_ += "\n  ━━[ Total {} Lagu ]━━".format(str(len(data["result"])))
-                                    ret_ += "\n\nUntuk Melihat Details Musik, Silahkan Ketik \n☬「 {}Playlist {}:nomor 」 ".format(str(),str(search))
-                                    ret_ += "\n☬「 {}Lirik {}:nomor 」 ".format(str(),str(search))
+                                    ret_ += "\n\nUntuk Melihat Details Musik, Silahkan Ketik \n🎙「 {}Playlist {}:nomor 」 ".format(str(),str(search))
+                                    ret_ += "\n🎙「 {}Lirik {}:nomor 」 ".format(str(),str(search))
                                     cl.sendMessage(msg.to, str(ret_))
                                 elif len(cond) == 2:
                                     num = int(cond[1])
@@ -1946,8 +1946,8 @@ def bot(op):
                                         num += 1
                                         ret_ += "\n {}. {}".format(str(num), str(lyric["single"]))
                                     ret_ += "\n  ━━[ Total {} Lagu ]━━".format(str(len(data["results"])))
-                                    ret_ += "\n\nUntuk Melihat Details Musik, Silahkan Ketik \n☬「 {}Lirik {}:nomor 」".format(str(),str(search))
-                                    ret_ += "\n☬「 {}Playlist {}:nomor 」 ".format(str(),str(search))
+                                    ret_ += "\n\nUntuk Melihat Details Musik, Silahkan Ketik \n🎙「 {}Lirik {}:nomor 」".format(str(),str(search))
+                                    ret_ += "\n🎙「 {}Playlist {}:nomor 」 ".format(str(),str(search))
                                     cl.sendMessage(msg.to, str(ret_))
                                 elif len(cond) == 2:
                                     num = int(cond[1])
@@ -2046,7 +2046,7 @@ def bot(op):
                                 nmor = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21"]
                                 plih = random.choice(nmor)
                                 nmor2 = ["1","2","3","4","5","6","7"]
-                                plih2 = random.choice(nmor2)
+                                plih2 = random.choice(nm:or2)
                                 url = ("https://farzain.xyz//api//premium//fansign//fs%20("+plih+").php?text="+nama+"&apikey=al11241519","http://farzain.xyz/api/premium/fansign/cos/cos%20("+plih2+").php?text="+nama+"&apikey=al11241519")
                                 plihurl = random.choice(url)
                                 cl.sendImageWithURL(msg.to, plihurl)
