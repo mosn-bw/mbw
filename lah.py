@@ -104,7 +104,7 @@ wait = {
     "unsend":False,
     "mention":"Hayoo ngintip ,ketuaan kan..ngaku hayoo",
     "Respontag":"ciee nge-Tag gua ,pasti pas ada maunya aja...🙌😂",
-    "welcome":"Grubumuza Hoşgeldiniz",
+    "welcome":"Nah Calon Tikungan Baru",
     "leave":"NAH LOH BAPER KHAAAN KHAAAN ,KEBANYAKAN DRAMA SIHH..😂",
     "comment":"Like by JEM_BOT",
     "message":"#Price List ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ :\n\n🤖 Bot Python2 :\n🔰 Self Bot Only ⏩ 80K/Bulan\n\n🤖 Bot Python3 :\n🔰 Self Bot Only ⏩ 100K/Bulan\n🔰 Self Bot + 4 Assist\n🔰 Self Bot + 10 Assist + 2 Ghost + 1 AntiJS ⏩ 450K/Bulan\n\n✍️ Bisa Requests Mau Berapa Assist Buat Py3.\nChat Ke : http://line.me/ti/p/~calon.almarhum99\n\n📃\n* Always on 24 Jam\n* Fitur Banyak\n* Speed Python2 0.06S\n* Speed Python3 0.02S",
@@ -211,7 +211,7 @@ def runtime(secs):
 def mentionMembers(to, mid):
     try:
         arrData = ""
-        textx = "Toplam Etiket Sayısı「{}」\n\n  [ Mention ]\n1. ".format(str(len(mid)))
+        textx = "Kamu yanke「{}」\n\n  [ Mention ]\n1. ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -238,7 +238,7 @@ def mentionMembers(to, mid):
 def siderMembers(to, mid):
     try:
         arrData = ""
-        textx = "Toplam Sayfa Kullanıcısı「{}」\nMerhaba ".format(str(len(mid)))
+        textx = "Sider「{}」\nTercyduk ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -265,7 +265,7 @@ def siderMembers(to, mid):
 def welcomeMembers(to, mid):
     try:
         arrData = ""
-        textx = "Nah ketemu lagi「{}」\nMerhaba  ".format(str(len(mid)))
+        textx = "Nah ketemu lagi「{}」\nHemm  ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -276,7 +276,7 @@ def welcomeMembers(to, mid):
             elen = str(len(textx) + len(mention) - 1)
             arrData = {'S':slen, 'E':elen, 'M':i}
             arr.append(arrData)
-            textx += mention+wait["welcome"]+"\nGrup İsmi : "+str(ginfo.name)
+            textx += mention+wait["welcome"]+"\ndi Grup : "+str(ginfo.name)
             if no < len(mid):
                 no += 1
                 textx += "%i " % (num)
@@ -293,7 +293,7 @@ def welcomeMembers(to, mid):
 def leaveMembers(to, mid):
     try:
         arrData = ""
-        textx = "Hemm korban Bapeerr lg pasti「{}」\nByee  ".format(str(len(mid)))
+        textx = "Hemm korban Bapeerr lg pasti「{}」\nByee gosah balik2 lagi ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -304,7 +304,7 @@ def leaveMembers(to, mid):
             elen = str(len(textx) + len(mention) - 1)
             arrData = {'S':slen, 'E':elen, 'M':i}
             arr.append(arrData)
-            textx += mention+wait["leave"]+"\nGrup İsmi : "+str(ginfo.name)
+            textx += mention+wait["leave"]+"\nke Grup : "+str(ginfo.name)
             if no < len(mid):
                 no += 1
                 textx += "%i " % (num)
@@ -358,7 +358,7 @@ def help():
     key2 = Setmain["namecreator"]
     key2 = key2.title()
     helpMessage = "╭━━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🔰┃🇮🇩🇮🇩🇮🇩🍁"+ key2 +" 🍁🇮🇩🇮🇩🇮🇩" + "\n" + \
+                  "┃🔰┃🇩🍁"+ key2 +" 🍁🇩" + "\n" + \
                   "┃🔰┃" + "\n" + \
                   "┃🔰┃━━🍁〔 Help Message 〕🍁━━" + "\n" + \
                   "┃🔰┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
@@ -476,7 +476,7 @@ def help():
                   "┃🔵┃🔵 Ketik「 Refresh 」Jika Sudah\n┃🔵┃Menggunakan Command Diatas...\n" + \
                   "┃🔵┃━━━━━━━━━━━━━━━━━━━" + "\n" + \
                   "┃🔵┃" + "\n" + \
-                  "╰━━━〔 BIG BOS: ©"+ key2 + "™  〕"
+                  "╰━━━〔 USER: ©"+ key2 + "™  〕"
     return helpMessage
 
 
@@ -487,32 +487,32 @@ def helarot():
     key2 = Setmain["namecreator"]
     key2 = key2.title()
     helpMessage1 = "╭━━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🇮🇩🇮🇩🇮🇩🍁"+ key2 +" 🍁🇮🇩🇮🇩🇮🇩" + "\n" + \
+                  "┃🇩🍁"+ key2 +" 🍁🇩" + "\n" + \
                   "┃" + "\n" + \
                   "┃━━🍁〔 Help Bot 〕🍁━━" + "\n" + \
                   "┃🇮🇩 Gunakan「 " + key + " 」Di Depannya\n" + \
                   "┃━━━━━━━━━━━━━━━━━━━" + "\n" + \
                   "┃🍁〔 Menu 〕🍁━━━━━━━━" + "\n" + \
-                  "┃🇮🇩┃ " + key + "Cek sider\n" + \
-                  "┃🇮🇩┃ " + key + "Cek spam\n" + \
-                  "┃🇮🇩┃ " + key + "Cek pesan\n" + \
-                  "┃🇮🇩┃ " + key + "Cek respon\n" + \
-                  "┃🇮🇩┃ " + key + "Cek welcome\n" + \
-                  "┃🇮🇩┃ " + key + "Cek leave\n" + \
-                  "┃🇮🇩┃ " + key + "Set sider:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Set spam:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Set pesan:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Set respon:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Set welcome:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Set leave:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Myname:「Nama」\n" + \
-                  "┃🇮🇩┃ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
-                  "┃🇮🇩┃ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
+                  "┃🔥┃ " + key + "Cek sider\n" + \
+                  "┃🔥┃ " + key + "Cek spam\n" + \
+                  "┃🔥┃ " + key + "Cek pesan\n" + \
+                  "┃🔥┃ " + key + "Cek respon\n" + \
+                  "┃🔥┃ " + key + "Cek welcome\n" + \
+                  "┃🔥┃ " + key + "Cek leave\n" + \
+                  "┃🔥┃ " + key + "Set sider:「Text」\n" + \
+                  "┃🔥┃ " + key + "Set spam:「Text」\n" + \
+                  "┃🔥┃ " + key + "Set pesan:「Text」\n" + \
+                  "┃🔥┃ " + key + "Set respon:「Text」\n" + \
+                  "┃🔥┃ " + key + "Set welcome:「Text」\n" + \
+                  "┃🔥┃ " + key + "Set leave:「Text」\n" + \
+                  "┃🔥┃ " + key + "Myname:「Nama」\n" + \
+                  "┃🔥┃ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
+                  "┃🔥┃ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
                   "┃" + "\n" + \
-                  "┃🇮🇩 Ketik「 Refresh 」Jika Sudah\n┃Menggunakan Command Diatas...\n" + \
+                  "┃🔥 Ketik「 Refresh 」Jika Sudah\n┃Menggunakan Command Diatas...\n" + \
                   "┃━━━━━━━━━━━━━━━━━━━" + "\n" + \
                   "┃" + "\n" + \
-                  "╰━〔 BIG BOS: ©"+ key2 +"™  〕"
+                  "╰━〔 USER: ©"+ key2 +"™  〕"
     return helpMessage1
 
 def infomeme():
@@ -684,7 +684,7 @@ def translate():
                        "┃🔰┃ fil : Filipino" + "\n" + \
                        "┃🔰┃ he : Hebrew" + "\n" + \
                        "╰━━〔 Jangan Typo 〕" + "\n" + "\n\n" + \
-                         "Contoh : tr-en Arif Cantik"
+                         "Contoh : tr-en Lagi Syantik "
     return helpTranslate
 groupParam = ""
 def SiriGetOut(targ):
@@ -707,12 +707,12 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in admin:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        cl.sendMessage(op.param1,"Selamat Tinggal Semuanya yg ada di\n Group " +str(ginfo.name))
                         cl.leaveGroup(op.param1)
                     else:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(op.param1,"Hai " + str(ginfo.name))
+                        cl.sendMessage(op.param1,"Hai Semuanya yg ada di " + str(ginfo.name))
 
         if op.type == 13:
             if mid in op.param3:
@@ -720,11 +720,11 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in admin:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(op.param1,"Merhaba " +str(ginfo.name))
+                        cl.sendMessage(op.param1,"Hallo all members " +str(ginfo.name))
                     else:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(op.param1,"Merhaba " + str(ginfo.name))
+                        cl.sendMessage(op.param1,"Hay all " + str(ginfo.name))
 
         if op.type == 15:
             if op.param1 in welcome:
@@ -972,7 +972,7 @@ def bot(op):
                    mentionees = mention['MENTIONEES']
                    for mention in mentionees:
                         if mention ['M'] in Bots:
-                           cl.sendMessage(msg.to, "Jangan tag saya....")
+                           cl.sendMessage(msg.to, "Jangan tag saya dong....")
                            cl.kickoutFromGroup(msg.to, [msg._from])
                            break
                if msg.contentType == 7:
