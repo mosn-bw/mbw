@@ -357,13 +357,13 @@ def help():
     key = key.title()
     key2 = Setmain["namecreator"]
     key2 = key2.title()
-    helpMessage = "╭━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🔰┃🎰"+ key2 +" 🎰" + "\n" + \
-                  "┃🔰┃" + "\n" + \
-                  "┃🔰┃━━🎰〔 Help Message 〕🎰━━" + "\n" + \
-                  "┃🔰┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃🔰┃━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🔰┃🎰〔 Menu 〕🎰━━━━━━" + "\n" + \
+    helpMessage = "╭━━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃🔰┃MODE: 🎰"+ key2 +" 🎰" + "\n" + \
+                  "┃  ┃" + "\n" + \
+                  "┃  ┃━━━🎰Help Message🎰━━━" + "\n" + \
+                  "┃  ┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
+                  "┃🔰┃━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃🔰┃━━━━━━Menu━━━━━━━" + "\n" + \
                   "┃🔰┃ " + key + "Help\n" + \
                   "┃🔰┃ " + key + "Help bot\n" + \
                   "┃🔰┃ " + key + "Translate\n" + \
@@ -413,10 +413,10 @@ def help():
                   "┃🔰┃ " + key + "Setkey「New Key」\n" + \
                   "┃🔰┃ " + key + "Mykey\n" + \
                   "┃🔰┃ " + key + "Resetkey\n" + \
-                  "┃🔰┃" + "\n" + \
-                  "┃🔰┃ Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃🔰┃━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🍁┃〔 Hiburan 〕🎰━━━━━━" + "\n" + \
+                  "┃  ┃" + "\n" + \
+                  "┃  ┃ Gunakan「 " + key + " 」Di Depannya\n" + \
+                  "┃🔰┃━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃🍁┃━━━━━━Hiburan━━━━━━" + "\n" + \
                   "┃🎭┃ " + key + "Musik:「Judul Lagu」\n" + \
                   "┃🎭┃ " + key + "Musik2:「Judul Lagu」\n" + \
                   "┃🎭┃ " + key + "Playlist「Nama Penyanyi」\n" + \
@@ -446,9 +446,9 @@ def help():
                   "┃🎭┃ " + key + "Spamcall:「jumlahnya」\n" + \
                   "┃🎭┃ " + key + "Spamcall\n" + \
                   "┃🎭┃ " + key + "ID line:「Id Line nya」\n" + \
-                  "┃🍁┃" + "\n" + \
-                  "┃🍁┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃🔵┃🎰〔 Settings 〕🎰━━━━━━━" + "\n" + \
+                  "┃  ┃" + "\n" + \
+                  "┃  ┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
+                  "┃🔵┃━━━━〔 Settings 〕━━━━" + "\n" + \
                   "┃🎭┃ " + key + "Unsend「on/off」\n" + \
                   "┃🎭┃ " + key + "Jointicket「on/off」\n" + \
                   "┃🎭┃ " + key + "Sticker「on/off」\n" + \
@@ -460,10 +460,10 @@ def help():
                   "┃🎭┃ " + key + "Welcome「on/off」\n" + \
                   "┃🎭┃ " + key + "Simi「on/off」\n" + \
                   "┃🎭┃ " + key + "Autoleave「on/off」\n" + \
-                  "┃🔵┃" + "\n" + \
-                  "┃🔵┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃🔵┃━━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🔵┃🎰〔 Admin 〕🎰━━━━━━" + "\n" + \
+                  "┃  ┃" + "\n" + \
+                  "┃  ┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
+                  "┃  ┃━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃🔵┃━━━━━〔 Admin 〕━━━━━━" + "\n" + \
                   "┃🎭┃ " + key + "Changenamecreator:「Nama」\n" + \
                   "┃🎭┃ " + key + "Resetnamecreator\n" + \
                   "┃🎭┃ " + key + "Admin:on\n" + \
@@ -474,9 +474,9 @@ def help():
                   "┃🎭┃ " + key + "Listadmin\n" + \
                   "┃🔵┃" + "\n" + \
                   "┃🔵┃🔐 Ketik「 Refresh 」Jika Sudah\n┃🔐┃Menggunakan Command Diatas...\n" + \
-                  "┃🔵┃━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃🔵┃━━━━━━━━━━━━━━━━" + "\n" + \
                   "┃🔵┃" + "\n" + \
-                  "╰━━━〔 USER BY: ™"+ key2 + "™  〕"
+                  "╰━━━〔 USER BY: ™"+ key2 + "™  〕━━"
     return helpMessage
 
 
@@ -487,12 +487,12 @@ def helarot():
     key2 = Setmain["namecreator"]
     key2 = key2.title()
     helpMessage1 = "╭━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃"+ key2 +" 🎰" + "\n" + \
+                  "┃NAME: "+ key2 +" 🎰" + "\n" + \
                   "┃" + "\n" + \
-                  "┃━━🎰〔 Help Bot 〕🎰━━" + "\n" + \
-                  "┃🎰 Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🎰〔 Menu 〕🎰━━━━━━" + "\n" + \
+                  "┃━━━━━━ Help Bot━━━━━━" + "\n" + \
+                  "┃Gunakan「 " + key + " 」Di Depannya\n" + \
+                  "┃━━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃━━━━━━〔 Menu 〕━━━━━━" + "\n" + \
                   "┃🔥┃ " + key + "Cek sider\n" + \
                   "┃🔥┃ " + key + "Cek spam\n" + \
                   "┃🔥┃ " + key + "Cek pesan\n" + \
@@ -510,16 +510,16 @@ def helarot():
                   "┃🔥┃ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
                   "┃" + "\n" + \
                   "┃🔥 Ketik「 Refresh 」Jika Sudah\n┃Menggunakan Command Diatas...\n" + \
-                  "┃━━━━━━━━━━━━━━━━━" + "\n" + \
+                  "┃━━━━━━━━━━━━━━━━━━" + "\n" + \
                   "┃" + "\n" + \
-                  "╰━〔 USER BY: ™"+ key2 +"™  〕"
+                  "╰━USER: ™"+ key2 +"〕"
     return helpMessage1
 
 def infomeme():
     helpMessage2 = """
-╭━━━━━━━━━━━━━━━━━━━━━
+╭━━━━━━━━━━━━━━━━━━━
 ┃         🔰 Meme List 🔰
-┃━━━━━━━━━━━━━━━━━━━━━
+┃━━━━━━━━━━━━━━━━━━━
 ┃🔰┃ Buzz
 ┃🔰┃ Spongebob
 ┃🔰┃ Patrick
@@ -546,10 +546,10 @@ def infomeme():
 ┃🔰┃ sk
 ┃🔰┃ sparta
 ┃🔰┃ aag
-┃━━━━━━━━━━━━━━━━━━━━━
-┃    🎓 BY : ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ 🎓
-┃ 🛅 line.me/ti/p/~calon.almarhum99 🛅
-╰━━━━━━━━━━━━━━━━━━━━━
+┃━━━━━━━━━━━━━━━━━━━
+┃  🎓 by: ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ 🎓
+┃line.me/ti/p/~calon.almarhum99
+╰━━━━━━━━━━━━━━━━━━━
 """
     return helpMessage2
 def listharga():
@@ -1140,7 +1140,7 @@ def bot(op):
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "╭━━━━━━━━━━━━━━━━━━━━━━━\n┃          🔰 S T A T U S 🔰\n┃━━━━━━━━━━━━━━━━━━━━━━━\n"
+                                md = "╭━━━━━━━━━━━━━━━━\n┃          🔰 S T A T U S 🔰\n┃━━━━━━━━━━━━━━━━\n"
                                 if wait["unsend"] == True: md+="┃🔰┃ 🔊 Unsend「ON」\n"
                                 else: md+="┃🔰┃ 🔇 Unsend「OFF」\n"
                                 if wait["sticker"] == True: md+="┃🔰┃ 🔊 Sticker「ON」\n"
@@ -1165,14 +1165,14 @@ def bot(op):
                                 else: md+="┃🔰┃ 🔇 Welcome「OFF」\n"
                                 if wait["autoLeave"] == True: md+="┃🔰┃ 🔊 Autoleave「ON」\n"
                                 else: md+="┃🔰┃ 🔇 Autoleave「OFF」\n"
-                                cl.sendMessage(msg.to, md+"┃━━━━━━━━━━━━━━━━━━━━━\n┃☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n╰━━━━━━━━━━━━━━━━━━━━━")
+                                cl.sendMessage(msg.to, md+"┃━━━━━━━━━━━━━━━━\n┃☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n╰━━━━━━━━━━━━━━━━")
 
                         elif cmd == "status translate":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "╭━━━━━━━━━━━━━━━━━━━━━\n┃ 🔰 STATUS TRANSLATE 🔰\n┃━━━━━━━━━━━━━━━━━━━━━\n"
+                                md = "╭━━━━━━━━━━━━━━━━\n┃ 🔰 STATUS TRANSLATE 🔰\n┃━━━━━━━━━━━━━━━━\n"
                                 if msg.to in translatetr: md+="┃🔰┃ 🔊 Turkish「ON」\n"
                                 else: md+="┃🔰┃ 🔇 Turkish 「OFF」\n"
                                 if msg.to in translateen: md+="┃🔰┃ 🔊 English「ON」\n"
@@ -1185,7 +1185,7 @@ def bot(op):
                                 else: md+="┃🔰┃ 🔇 Taiwan「OFF」\n"
                                 if msg.to in translatear: md+="┃🔰┃ 🔊 Arab「ON」\n"
                                 else: md+="┃🔰┃ 🔇 Arab「OFF」\n"
-                                cl.sendMessage(msg.to, md+"┃━━━━━━━━━━━━━━━━━━━━━\n┃☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n╰━━━━━━━━━━━━━━━━━━━━━")
+                                cl.sendMessage(msg.to, md+"┃━━━━━━━━━━━━━━━━\n┃☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n╰━━━━━━━━━━━━━━━━")
 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
