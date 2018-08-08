@@ -11,8 +11,8 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #BOT INI BUAT KALIAN YANG MEMANG MEMBUTUHKAN
-#cl = LineClient()
-cl = LineClient(authToken='Ev5UVHYHVQOE4g3YocS1.N0EmwaQCtH3L5aFPSqWTOq.6rJiumc3gtkhXTpKausP73mujH/NLux5y3EeLkIa23s=')
+cl = LineClient()
+#cl = LineClient(authToken='EvTWtCgb4U73PYNpozO1.N0EmwaQCtH3L5aFPSqWTOq.AP5Ce/ReUmGOCvPVaOYG6lbVYIZDmLQXhw9d4mmT6Zc=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -357,126 +357,115 @@ def help():
     key = key.title()
     key2 = Setmain["namecreator"]
     key2 = key2.title()
-    helpMessage = "╭━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🔰┃MODE: 🎰"+ key2 +" 🎰" + "\n" + \
-                  "┃  ┃" + "\n" + \
-                  "┃  ┃━━━🎰Help Message🎰━━━" + "\n" + \
-                  "┃  ┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃🔰┃━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🔰┃━━━━━━Menu━━━━━━━" + "\n" + \
-                  "┃🔰┃ " + key + "Help\n" + \
-                  "┃🔰┃ " + key + "Help bot\n" + \
-                  "┃🔰┃ " + key + "Translate\n" + \
-                  "┃🔰┃ " + key + "Autotrans「en-on/en-off」\n" + \
-                  "┃🔰┃ " + key + "Autotrans「id-on/id-off」\n" + \
-                  "┃🔰┃ " + key + "Autotrans「th-on/th-off」\n" + \
-                  "┃🔰┃ " + key + "Autotrans「tw-on/tw-off」\n" + \
-                  "┃🔰┃ " + key + "Autotrans「ar-on/ar-off」\n" + \
-                  "┃🔰┃ " + key + "Info meme\n" + \
-                  "┃🔰┃ " + key + "Self「on/off」\n" + \
-                  "┃🔰┃ " + key + "Me\n" + \
-                  "┃🔰┃ " + key + "Mycopy「@」\n" + \
-                  "┃🔰┃ " + key + "Mybackup\n" + \
-                  "┃🔰┃ " + key + "Stealname「@」\n" + \
-                  "┃🔰┃ " + key + "Stealbio「@」\n" + \
-                  "┃🔰┃ " + key + "Stealpicture「@」\n" + \
-                  "┃🔰┃ " + key + "Stealcover「@」\n" + \
-                  "┃🔰┃ " + key + "Stealvideoprofile「@」\n" + \
-                  "┃🔰┃ " + key + "Mymid\n" + \
-                  "┃🔰┃ " + key + "Mid「@」\n" + \
-                  "┃🔰┃ " + key + "Info 「@」\n" + \
-                  "┃🔰┃ " + key + "Status\n" + \
-                  "┃🔰┃ " + key + "About\n" + \
-                  "┃🔰┃ " + key + "Restart\n" + \
-                  "┃🔰┃ " + key + "Runtime\n" + \
-                  "┃🔰┃ " + key + "Creator\n" + \
-                  "┃🔰┃ " + key + "Respon\n" + \
-                  "┃🔰┃ " + key + "Speed/Sp\n" + \
-                  "┃🔰┃ " + key + "Sprespon\n" + \
-                  "┃🔰┃ " + key + "Tagall\n" + \
-                  "┃🔰┃ " + key + "Byeme\n" + \
-                  "┃🔰┃ " + key + "Ginfo\n" + \
-                  "┃🔰┃ " + key + "Open\n" + \
-                  "┃🔰┃ " + key + "Close\n" + \
-                  "┃🔰┃ " + key + "Url grup\n" + \
-                  "┃🔰┃ " + key + "Reject\n" + \
-                  "┃🔰┃ " + key + "Gruplist\n" + \
-                  "┃🔰┃ " + key + "Infogrup「angka」\n" + \
-                  "┃🔰┃ " + key + "Infomem「angka」\n" + \
-                  "┃🔰┃ " + key + "Remove chat\n" + \
-                  "┃🔰┃ " + key + "Lurking「on/off」\n" + \
-                  "┃🔰┃ " + key + "Lurkers\n" + \
-                  "┃🔰┃ " + key + "Sider「on/off」\n" + \
-                  "┃🔰┃ " + key + "Updatefoto\n" + \
-                  "┃🔰┃ " + key + "Updategrup\n" + \
-                  "┃🔰┃ " + key + "Broadcast:「Text」\n" + \
-                  "┃🔰┃ " + key + "Setkey「New Key」\n" + \
-                  "┃🔰┃ " + key + "Mykey\n" + \
-                  "┃🔰┃ " + key + "Resetkey\n" + \
-                  "┃  ┃" + "\n" + \
-                  "┃  ┃ Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃🔰┃━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🍁┃━━━━━━Hiburan━━━━━━" + "\n" + \
-                  "┃🎭┃ " + key + "Musik:「Judul Lagu」\n" + \
-                  "┃🎭┃ " + key + "Musik2:「Judul Lagu」\n" + \
-                  "┃🎭┃ " + key + "Playlist「Nama Penyanyi」\n" + \
-                  "┃🎭┃ " + key + "Ytmp3:「Judul Lagu」\n" + \
-                  "┃🎭┃ " + key + "Ytmp4:「Judul Video\n" + \
-                  "┃🎭┃ " + key + "Fs:「Nama」\n" + \
-                  "┃🎭┃ " + key + "cl-telp:「No HP」\n" + \
-                  "┃🎭┃ " + key + "cl-sms:「No HP」\n" + \
-                  "┃🎭┃ " + key + "Smsgratis:「Nohp:Pesannya」\n" + \
-                  "┃🎭┃ " + key + "Meme@Nama@Teks1@Teks2\n" + \
-                  "┃🎭┃ " + key + "Quotes\n" + \
-                  "┃🎭┃ " + key + "1cak\n" + \
-                  "┃🎭┃ " + key + "Profilesmule:「ID Smule」\n" + \
-                  "┃🎭┃ " + key + "Randomnumber:「Nmor-Nmor」\n" + \
-                  "┃🎭┃ " + key + "Acaratv:「Nama Channel」\n" + \
-                  "┃🎭┃ " + key + "Gimage:「Keyword」\n" + \
-                  "┃🎭┃ " + key + "Img food:「Nama Makanan」\n" + \
-                  "┃🎭┃ " + key + "Al-quran:「Surah」\n" + \
-                  "┃🎭┃ " + key + "Sholat:「Nama Kota」\n" + \
-                  "┃🎭┃ " + key + "Cuaca:「Nama Kota」\n" + \
-                  "┃🎭┃ " + key + "Lokasi:「Nama Kota」\n" + \
-                  "┃🎭┃ " + key + "Profileig:「Nama IG」\n" + \
-                  "┃🎭┃ " + key + "Cekig:「Nama IG」\n" + \
-                  "┃🎭┃ " + key + "Cekdate:「tgl-bln-thn」\n" + \
-                  "┃🎭┃ " + key + "Spamtag:「jumlahnya」\n" + \
-                  "┃🎭┃ " + key + "Spamtag「@」\n" + \
-                  "┃🎭┃ " + key + "Spamcall:「jumlahnya」\n" + \
-                  "┃🎭┃ " + key + "Spamcall\n" + \
-                  "┃🎭┃ " + key + "ID line:「Id Line nya」\n" + \
-                  "┃  ┃" + "\n" + \
-                  "┃  ┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃🔵┃━━━━〔 Settings 〕━━━━" + "\n" + \
-                  "┃🎭┃ " + key + "Unsend「on/off」\n" + \
-                  "┃🎭┃ " + key + "Jointicket「on/off」\n" + \
-                  "┃🎭┃ " + key + "Sticker「on/off」\n" + \
-                  "┃🎭┃ " + key + "Respon「on/off」\n" + \
-                  "┃🎭┃ " + key + "Respongift「on/off」\n" + \
-                  "┃🎭┃ " + key + "Contact「on/off」\n" + \
-                  "┃🎭┃ " + key + "Autojoin「on/off」\n" + \
-                  "┃🎭┃ " + key + "Autoadd「on/off」\n" + \
-                  "┃🎭┃ " + key + "Welcome「on/off」\n" + \
-                  "┃🎭┃ " + key + "Simi「on/off」\n" + \
-                  "┃🎭┃ " + key + "Autoleave「on/off」\n" + \
-                  "┃  ┃" + "\n" + \
-                  "┃  ┃🔰 Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃  ┃━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🔵┃━━━━━〔 Admin 〕━━━━━━" + "\n" + \
-                  "┃🎭┃ " + key + "Changenamecreator:「Nama」\n" + \
-                  "┃🎭┃ " + key + "Resetnamecreator\n" + \
-                  "┃🎭┃ " + key + "Admin:on\n" + \
-                  "┃🎭┃ " + key + "Admin:repeat\n" + \
-                  "┃🎭┃ " + key + "Adminadd「@」\n" + \
-                  "┃🎭┃ " + key + "Admindell「@」\n" + \
-                  "┃🎭┃ " + key + "Refresh\n" + \
-                  "┃🎭┃ " + key + "Listadmin\n" + \
-                  "┃🔵┃" + "\n" + \
-                  "┃🔵┃🔐 Ketik「 Refresh 」Jika Sudah\n┃🔐┃Menggunakan Command Diatas...\n" + \
-                  "┃🔵┃━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃🔵┃" + "\n" + \
-                  "╰━━━〔 USER BY: ™"+ key2 + "™  〕━━"
+    helpMessage = "🔰 MODE: "+ key2 +" 🔰" + "\n" + \
+                  "🔥 Help Message 🔥" + "\n" + \
+                  "     Gunakan「 " + key + " 」Di Depannya\n" + \
+                  "🔵 Menu" + "\n" + \
+                  "🔰 " + key + "Help\n" + \
+                  "🔰 " + key + "Help bot\n" + \
+                  "🔰 " + key + "Translate\n" + \
+                  "🔰 " + key + "Autotrans「en-on/en-off」\n" + \
+                  "🔰 " + key + "Autotrans「id-on/id-off」\n" + \
+                  "🔰 " + key + "Autotrans「th-on/th-off」\n" + \
+                  "🔰 " + key + "Autotrans「tw-on/tw-off」\n" + \
+                  "🔰 " + key + "Autotrans「ar-on/ar-off」\n" + \
+                  "🔰 " + key + "Info meme\n" + \
+                  "🔰 " + key + "Self「on/off」\n" + \
+                  "🔰 " + key + "Me\n" + \
+                  "🔰 " + key + "Mycopy「@」\n" + \
+                  "🔰 " + key + "Mybackup\n" + \
+                  "🔰 " + key + "Stealname「@」\n" + \
+                  "🔰 " + key + "Stealbio「@」\n" + \
+                  "🔰 " + key + "Stealpicture「@」\n" + \
+                  "🔰 " + key + "Stealcover「@」\n" + \
+                  "🔰 " + key + "Stealvideoprofile「@」\n" + \
+                  "🔰 " + key + "Mymid\n" + \
+                  "🔰 " + key + "Mid「@」\n" + \
+                  "🔰 " + key + "Info 「@」\n" + \
+                  "🔰 " + key + "Status\n" + \
+                  "🔰 " + key + "About\n" + \
+                  "🔰 " + key + "Restart\n" + \
+                  "🔰 " + key + "Runtime\n" + \
+                  "🔰 " + key + "Creator\n" + \
+                  "🔰 " + key + "Respon\n" + \
+                  "🔰 " + key + "Speed/Sp\n" + \
+                  "🔰 " + key + "Sprespon\n" + \
+                  "🔰 " + key + "Tagall\n" + \
+                  "🔰 " + key + "Byeme\n" + \
+                  "🔰 " + key + "Ginfo\n" + \
+                  "🔰 " + key + "Open\n" + \
+                  "🔰 " + key + "Close\n" + \
+                  "🔰 " + key + "Url grup\n" + \
+                  "🔰 " + key + "Reject\n" + \
+                  "🔰 " + key + "Gruplist\n" + \
+                  "🔰 " + key + "Infogrup「angka」\n" + \
+                  "🔰 " + key + "Infomem「angka」\n" + \
+                  "🔰 " + key + "Remove chat\n" + \
+                  "🔰 " + key + "Lurking「on/off」\n" + \
+                  "🔰 " + key + "Lurkers\n" + \
+                  "🔰 " + key + "Sider「on/off」\n" + \
+                  "🔰 " + key + "Updatefoto\n" + \
+                  "🔰 " + key + "Updategrup\n" + \
+                  "🔰 " + key + "Broadcast:「Text」\n" + \
+                  "🔰 " + key + "Setkey「New Key」\n" + \
+                  "🔰 " + key + "Mykey\n" + \
+                  "🔰 " + key + "Resetkey\n" + \
+                  "     Gunakan「 " + key + " 」Di Depannya\n" + \
+                  "🔵 Hiburan" + "\n" + \
+                  "🎭 " + key + "Musik:「Judul Lagu」\n" + \
+                  "🎭 " + key + "Musik2:「Judul Lagu」\n" + \
+                  "🎭 " + key + "Playlist「Nama Penyanyi」\n" + \
+                  "🎭 " + key + "Ytmp3:「Judul Lagu」\n" + \
+                  "🎭 " + key + "Ytmp4:「Judul Video\n" + \
+                  "🎭 " + key + "Fs:「Nama」\n" + \
+                  "🎭 " + key + "cl-telp:「No HP」\n" + \
+                  "🎭 " + key + "cl-sms:「No HP」\n" + \
+                  "🎭 " + key + "Smsgratis:「Nohp:Pesannya」\n" + \
+                  "🎭 " + key + "Meme@Nama@Teks1@Teks2\n" + \
+                  "🎭 " + key + "Quotes\n" + \
+                  "🎭 " + key + "1cak\n" + \
+                  "🎭 " + key + "Profilesmule:「ID Smule」\n" + \
+                  "🎭 " + key + "Randomnumber:「Nmor-Nmor」\n" + \
+                  "🎭 " + key + "Acaratv:「Nama Channel」\n" + \
+                  "🎭 " + key + "Gimage:「Keyword」\n" + \
+                  "🎭 " + key + "Img food:「Nama Makanan」\n" + \
+                  "🎭 " + key + "Al-quran:「Surah」\n" + \
+                  "🎭 " + key + "Sholat:「Nama Kota」\n" + \
+                  "🎭 " + key + "Cuaca:「Nama Kota」\n" + \
+                  "🎭 " + key + "Lokasi:「Nama Kota」\n" + \
+                  "🎭 " + key + "Profileig:「Nama IG」\n" + \
+                  "🎭 " + key + "Cekig:「Nama IG」\n" + \
+                  "🎭 " + key + "Cekdate:「tgl-bln-thn」\n" + \
+                  "🎭 " + key + "Spamtag:「jumlahnya」\n" + \
+                  "🎭 " + key + "Spamtag「@」\n" + \
+                  "🎭 " + key + "Spamcall:「jumlahnya」\n" + \
+                  "🎭 " + key + "Spamcall\n" + \
+                  "🎭 " + key + "ID line:「Id Line nya」\n" + \
+                  "     Gunakan「 " + key + " 」Di Depannya\n" + \
+                  "🔵 Settings" + "\n" + \
+                  "🎭 " + key + "Unsend「on/off」\n" + \
+                  "🎭 " + key + "Jointicket「on/off」\n" + \
+                  "🎭 " + key + "Sticker「on/off」\n" + \
+                  "🎭 " + key + "Respon「on/off」\n" + \
+                  "🎭 " + key + "Respongift「on/off」\n" + \
+                  "🎭 " + key + "Contact「on/off」\n" + \
+                  "🎭 " + key + "Autojoin「on/off」\n" + \
+                  "🎭 " + key + "Autoadd「on/off」\n" + \
+                  "🎭 " + key + "Welcome「on/off」\n" + \
+                  "🎭 " + key + "Simi「on/off」\n" + \
+                  "🎭 " + key + "Autoleave「on/off」\n" + \
+                  "     Gunakan「 " + key + " 」Di Depannya\n" + \
+                  "🔵 Admin" + "\n" + \
+                  "🎭 " + key + "Changenamecreator:「Nama」\n" + \
+                  "🎭 " + key + "Resetnamecreator\n" + \
+                  "🎭 " + key + "Admin:on\n" + \
+                  "🎭 " + key + "Admin:repeat\n" + \
+                  "🎭 " + key + "Adminadd「@」\n" + \
+                  "🎭 " + key + "Admindell「@」\n" + \
+                  "🎭 " + key + "Refresh\n" + \
+                  "🎭 " + key + "Listadmin\n" + \
+                  "     Ketik「 Refresh 」Jika Sudah Menggunakan Command Diatas...\n" + \
+                  "🔐 USER BY:"+ key2 +"™"
     return helpMessage
 
 
@@ -486,71 +475,60 @@ def helarot():
     key = key.title()
     key2 = Setmain["namecreator"]
     key2 = key2.title()
-    helpMessage1 = "╭━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃NAME: "+ key2 +" 🎰" + "\n" + \
-                  "┃" + "\n" + \
-                  "┃━━━━━━ Help Bot━━━━━━" + "\n" + \
-                  "┃Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "┃━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃━━━━━━〔 Menu 〕━━━━━━" + "\n" + \
-                  "┃🔥┃ " + key + "Cek sider\n" + \
-                  "┃🔥┃ " + key + "Cek spam\n" + \
-                  "┃🔥┃ " + key + "Cek pesan\n" + \
-                  "┃🔥┃ " + key + "Cek respon\n" + \
-                  "┃🔥┃ " + key + "Cek welcome\n" + \
-                  "┃🔥┃ " + key + "Cek leave\n" + \
-                  "┃🔥┃ " + key + "Set sider:「Text」\n" + \
-                  "┃🔥┃ " + key + "Set spam:「Text」\n" + \
-                  "┃🔥┃ " + key + "Set pesan:「Text」\n" + \
-                  "┃🔥┃ " + key + "Set respon:「Text」\n" + \
-                  "┃🔥┃ " + key + "Set welcome:「Text」\n" + \
-                  "┃🔥┃ " + key + "Set leave:「Text」\n" + \
-                  "┃🔥┃ " + key + "Myname:「Nama」\n" + \
-                  "┃🔥┃ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
-                  "┃🔥┃ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
-                  "┃" + "\n" + \
-                  "┃🔥 Ketik「 Refresh 」Jika Sudah\n┃Menggunakan Command Diatas...\n" + \
-                  "┃━━━━━━━━━━━━━━━━━━" + "\n" + \
-                  "┃" + "\n" + \
-                  "╰━USER: ™"+ key2 +"〕"
+    helpMessage1 ="🔰 NAME: "+ key2 +" 🔰" + "\n" + \
+                  "🔵 Help Bot" + "\n" + \
+                  "     Gunakan「 " + key + " 」Di Depannya\n" + \
+                  "🔵 Menu" + "\n" + \
+                  "🔥 " + key + "Cek sider\n" + \
+                  "🔥 " + key + "Cek spam\n" + \
+                  "🔥 " + key + "Cek pesan\n" + \
+                  "🔥 " + key + "Cek respon\n" + \
+                  "🔥 " + key + "Cek welcome\n" + \
+                  "🔥 " + key + "Cek leave\n" + \
+                  "🔥 " + key + "Set sider:「Text」\n" + \
+                  "🔥 " + key + "Set spam:「Text」\n" + \
+                  "🔥 " + key + "Set pesan:「Text」\n" + \
+                  "🔥 " + key + "Set respon:「Text」\n" + \
+                  "🔥 " + key + "Set welcome:「Text」\n" + \
+                  "🔥 " + key + "Set leave:「Text」\n" + \
+                  "🔥 " + key + "Myname:「Nama」\n" + \
+                  "🔥 " + key + "Gift:「Mid korban」「Jumlah」\n" + \
+                  "🔥 " + key + "Spam:「Mid korban」「Jumlah」\n" + \
+                  "     Ketik「 Refresh 」Jika Sudah Menggunakan Command Diatas...\n" + \
+                  "🔐 USER:"+ key2 +"™"
     return helpMessage1
 
 def infomeme():
-    helpMessage2 = """
-╭━━━━━━━━━━━━━━━━━━━
-┃         🔰 Meme List 🔰
-┃━━━━━━━━━━━━━━━━━━━
-┃🔰┃ Buzz
-┃🔰┃ Spongebob
-┃🔰┃ Patrick
-┃🔰┃ Doge
-┃🔰┃ Joker
-┃🔰┃ Xzibit
-┃🔰┃ You_tried
-┃🔰┃ cb
-┃🔰┃ blb
-┃🔰┃ wonka
-┃🔰┃ keanu
-┃🔰┃ cryingfloor
-┃🔰┃ disastergirl
-┃🔰┃ facepalm
-┃🔰┃ fwp
-┃🔰┃ grumpycat
-┃🔰┃ captain
-┃🔰┃ mmm
-┃🔰┃ rollsafe
-┃🔰┃ sad-obama
-┃🔰┃ sad-clinton
-┃🔰┃ aag
-┃🔰┃ sarcasticbear
-┃🔰┃ sk
-┃🔰┃ sparta
-┃🔰┃ aag
-┃━━━━━━━━━━━━━━━━━━━
-┃  🎓 by: ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ 🎓
-┃line.me/ti/p/~calon.almarhum99
-╰━━━━━━━━━━━━━━━━━━━
-"""
+    helpMessage2 = """         🔰 Meme List 🔰
+
+✍ Buzz
+✍ Spongebob
+✍ Patrick
+✍ Doge
+✍ Joker
+✍ Xzibit
+✍ You_tried
+✍ cb
+✍ blb
+✍ wonka
+✍ keanu
+✍ cryingfloor
+✍ disastergirl
+✍ facepalm
+✍ fwp
+✍ grumpycat
+✍ captain
+✍ mmm
+✍ rollsafe
+✍ sad-obama
+✍ sad-clinton
+✍ aag
+✍ sarcasticbear
+✍ sk
+✍ sparta
+✍ aag
+🎓 by: ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ 🎓
+line.me/ti/p/~calon.almarhum99"""
     return helpMessage2
 def listharga():
     helpMessage3 = """
@@ -576,114 +554,114 @@ Chat Ke : http://line.me/ti/p/~calon.almarhum99
 """
 
 def translate():
-    helpTranslate =     "╭━━〔 T R A N S L A T E 〕" + "\n" + \
-                       "┃🔰┃ af : afrikaans" + "\n" + \
-                       "┃🔰┃ sq : albanian" + "\n" + \
-                       "┃🔰┃ am : amharic" + "\n" + \
-                       "┃🔰┃ ar : arabic" + "\n" + \
-                       "┃🔰┃ hy : armenian" + "\n" + \
-                       "┃🔰┃ az : azerbaijani" + "\n" + \
-                       "┃🔰┃ eu : basque" + "\n" + \
-                       "┃🔰┃ be : belarusian" + "\n" + \
-                       "┃🔰┃ bn : bengali" + "\n" + \
-                       "┃🔰┃ bs : bosnian" + "\n" + \
-                       "┃🔰┃ bg : bulgarian" + "\n" + \
-                       "┃🔰┃ ca : catalan" + "\n" + \
-                       "┃🔰┃ ceb : cebuano" + "\n" + \
-                       "┃🔰┃ ny : chichewa" + "\n" + \
-                       "┃🔰┃ zh-cn : chinese (simplified)" + "\n" + \
-                       "┃🔰┃ zh-tw : chinese (traditional)" + "\n" + \
-                       "┃🔰┃ co : corsican" + "\n" + \
-                       "┃🔰┃ hr : croatian" + "\n" + \
-                       "┃🔰┃ cs : czech" + "\n" + \
-                       "┃🔰┃ da : danish" + "\n" + \
-                       "┃🔰┃ nl : dutch" + "\n" + \
-                       "┃🔰┃ en : english" + "\n" + \
-                       "┃🔰┃ eo : esperanto" + "\n" + \
-                       "┃🔰┃ et : estonian" + "\n" + \
-                       "┃🔰┃ tl : filipino" + "\n" + \
-                       "┃🔰┃ fi : finnish" + "\n" + \
-                       "┃🔰┃ fr : french" + "\n" + \
-                       "┃🔰┃ fy : frisian" + "\n" + \
-                       "┃🔰┃ gl : galician" + "\n" + \
-                       "┃🔰┃ ka : georgian" + "\n" + \
-                       "┃🔰┃ de : german" + "\n" + \
-                       "┃🔰┃ el : greek" + "\n" + \
-                       "┃🔰┃ gu : gujarati" + "\n" + \
-                       "┃🔰┃ ht : haitian creole" + "\n" + \
-                       "┃🔰┃ ha : hausa" + "\n" + \
-                       "┃🔰┃ haw : hawaiian" + "\n" + \
-                       "┃🔰┃ iw : hebrew" + "\n" + \
-                       "┃🔰┃ hi : hindi" + "\n" + \
-                       "┃🔰┃ hmn : hmong" + "\n" + \
-                       "┃🔰┃ hu : hungarian" + "\n" + \
-                       "┃🔰┃ is : icelandic" + "\n" + \
-                       "┃🔰┃ ig : igbo" + "\n" + \
-                       "┃🔰┃ id : indonesian" + "\n" + \
-                       "┃🔰┃ ga : irish" + "\n" + \
-                       "┃🔰┃ it : italian" + "\n" + \
-                       "┃🔰┃ ja : japanese" + "\n" + \
-                       "┃🔰┃ jw : javanese" + "\n" + \
-                       "┃🔰┃ kn : kannada" + "\n" + \
-                       "┃🔰┃ kk : kazakh" + "\n" + \
-                       "┃🔰┃ km : khmer" + "\n" + \
-                       "┃🔰┃ ko : korean" + "\n" + \
-                       "┃🔰┃ ku : kurdish (kurmanji)" + "\n" + \
-                       "┃🔰┃ ky : kyrgyz" + "\n" + \
-                       "┃🔰┃ lo : lao" + "\n" + \
-                       "┃🔰┃ la : latin" + "\n" + \
-                       "┃🔰┃ lv : latvian" + "\n" + \
-                       "┃🔰┃ lt : lithuanian" + "\n" + \
-                       "┃🔰┃ lb : luxembourgish" + "\n" + \
-                       "┃🔰┃ mk : macedonian" + "\n" + \
-                       "┃🔰┃ mg : malagasy" + "\n" + \
-                       "┃🔰┃ ms : malay" + "\n" + \
-                       "┃🔰┃ ml : malayalam" + "\n" + \
-                       "┃🔰┃ mt : maltese" + "\n" + \
-                       "┃🔰┃ mi : maori" + "\n" + \
-                       "┃🔰┃ mr : marathi" + "\n" + \
-                       "┃🔰┃ mn : mongolian" + "\n" + \
-                       "┃🔰┃ my : myanmar (burmese)" + "\n" + \
-                       "┃🔰┃ ne : nepali" + "\n" + \
-                       "┃🔰┃ no : norwegian" + "\n" + \
-                       "┃🔰┃ ps : pashto" + "\n" + \
-                       "┃🔰┃ fa : persian" + "\n" + \
-                       "┃🔰┃ pl : polish" + "\n" + \
-                       "┃🔰┃ pt : portuguese" + "\n" + \
-                       "┃🔰┃ pa : punjabi" + "\n" + \
-                       "┃🔰┃ ro : romanian" + "\n" + \
-                       "┃🔰┃ ru : russian" + "\n" + \
-                       "┃🔰┃ sm : samoan" + "\n" + \
-                       "┃🔰┃ gd : scots gaelic" + "\n" + \
-                       "┃🔰┃ sr : serbian" + "\n" + \
-                       "┃🔰┃ st : sesotho" + "\n" + \
-                       "┃🔰┃ sn : shona" + "\n" + \
-                       "┃🔰┃ sd : sindhi" + "\n" + \
-                       "┃🔰┃ si : sinhala" + "\n" + \
-                       "┃🔰┃ sk : slovak" + "\n" + \
-                       "┃🔰┃ sl : slovenian" + "\n" + \
-                       "┃🔰┃ so : somali" + "\n" + \
-                       "┃🔰┃ es : spanish" + "\n" + \
-                       "┃🔰┃ su : sundanese" + "\n" + \
-                       "┃🔰┃ sw : swahili" + "\n" + \
-                       "┃🔰┃ sv : swedish" + "\n" + \
-                       "┃🔰┃ tg : tajik" + "\n" + \
-                       "┃🔰┃ ta : tamil" + "\n" + \
-                       "┃🔰┃ te : telugu" + "\n" + \
-                       "┃🔰┃ th : thai" + "\n" + \
-                       "┃🔰┃ tr : turkish" + "\n" + \
-                       "┃🔰┃ uk : ukrainian" + "\n" + \
-                       "┃🔰┃ ur : urdu" + "\n" + \
-                       "┃🔰┃ uz : uzbek" + "\n" + \
-                       "┃🔰┃ vi : vietnamese" + "\n" + \
-                       "┃🔰┃ cy : welsh" + "\n" + \
-                       "┃🔰┃ xh : xhosa" + "\n" + \
-                       "┃🔰┃ yi : yiddish" + "\n" + \
-                       "┃🔰┃ yo : yoruba" + "\n" + \
-                       "┃🔰┃ zu : zulu" + "\n" + \
-                       "┃🔰┃ fil : Filipino" + "\n" + \
-                       "┃🔰┃ he : Hebrew" + "\n" + \
-                       "╰━━〔 Jangan Typo 〕" + "\n" + "\n\n" + \
+    helpTranslate =     "✍ T R A N S L A T E " + "\n" + \
+                       "📝 af : afrikaans" + "\n" + \
+                       "📝 sq : albanian" + "\n" + \
+                       "📝 am : amharic" + "\n" + \
+                       "📝 ar : arabic" + "\n" + \
+                       "📝 hy : armenian" + "\n" + \
+                       "📝 az : azerbaijani" + "\n" + \
+                       "📝 eu : basque" + "\n" + \
+                       "📝 be : belarusian" + "\n" + \
+                       "📝 bn : bengali" + "\n" + \
+                       "📝 bs : bosnian" + "\n" + \
+                       "📝 bg : bulgarian" + "\n" + \
+                       "📝 ca : catalan" + "\n" + \
+                       "📝 ceb : cebuano" + "\n" + \
+                       "📝 ny : chichewa" + "\n" + \
+                       "📝 zh-cn : chinese (simplified)" + "\n" + \
+                       "📝 zh-tw : chinese (traditional)" + "\n" + \
+                       "📝 co : corsican" + "\n" + \
+                       "📝 hr : croatian" + "\n" + \
+                       "📝 cs : czech" + "\n" + \
+                       "📝 da : danish" + "\n" + \
+                       "📝 nl : dutch" + "\n" + \
+                       "📝 en : english" + "\n" + \
+                       "📝 eo : esperanto" + "\n" + \
+                       "📝 et : estonian" + "\n" + \
+                       "📝 tl : filipino" + "\n" + \
+                       "📝 fi : finnish" + "\n" + \
+                       "📝 fr : french" + "\n" + \
+                       "📝 fy : frisian" + "\n" + \
+                       "📝 gl : galician" + "\n" + \
+                       "📝 ka : georgian" + "\n" + \
+                       "📝 de : german" + "\n" + \
+                       "📝 el : greek" + "\n" + \
+                       "📝 gu : gujarati" + "\n" + \
+                       "📝 ht : haitian creole" + "\n" + \
+                       "📝 ha : hausa" + "\n" + \
+                       "📝 haw : hawaiian" + "\n" + \
+                       "📝 iw : hebrew" + "\n" + \
+                       "📝 hi : hindi" + "\n" + \
+                       "📝 hmn : hmong" + "\n" + \
+                       "📝 hu : hungarian" + "\n" + \
+                       "📝 is : icelandic" + "\n" + \
+                       "📝 ig : igbo" + "\n" + \
+                       "📝 id : indonesian" + "\n" + \
+                       "📝 ga : irish" + "\n" + \
+                       "📝 it : italian" + "\n" + \
+                       "📝 ja : japanese" + "\n" + \
+                       "📝 jw : javanese" + "\n" + \
+                       "📝 kn : kannada" + "\n" + \
+                       "📝 kk : kazakh" + "\n" + \
+                       "📝 km : khmer" + "\n" + \
+                       "📝 ko : korean" + "\n" + \
+                       "📝 ku : kurdish (kurmanji)" + "\n" + \
+                       "📝 ky : kyrgyz" + "\n" + \
+                       "📝 lo : lao" + "\n" + \
+                       "📝 la : latin" + "\n" + \
+                       "📝 lv : latvian" + "\n" + \
+                       "📝 lt : lithuanian" + "\n" + \
+                       "📝 lb : luxembourgish" + "\n" + \
+                       "📝 mk : macedonian" + "\n" + \
+                       "📝 mg : malagasy" + "\n" + \
+                       "📝 ms : malay" + "\n" + \
+                       "📝 ml : malayalam" + "\n" + \
+                       "📝 mt : maltese" + "\n" + \
+                       "📝 mi : maori" + "\n" + \
+                       "📝 mr : marathi" + "\n" + \
+                       "📝 mn : mongolian" + "\n" + \
+                       "📝 my : myanmar (burmese)" + "\n" + \
+                       "📝 ne : nepali" + "\n" + \
+                       "📝 no : norwegian" + "\n" + \
+                       "📝 ps : pashto" + "\n" + \
+                       "📝 fa : persian" + "\n" + \
+                       "📝 pl : polish" + "\n" + \
+                       "📝 pt : portuguese" + "\n" + \
+                       "📝 pa : punjabi" + "\n" + \
+                       "📝 ro : romanian" + "\n" + \
+                       "📝 ru : russian" + "\n" + \
+                       "📝 sm : samoan" + "\n" + \
+                       "📝 gd : scots gaelic" + "\n" + \
+                       "📝 sr : serbian" + "\n" + \
+                       "📝 st : sesotho" + "\n" + \
+                       "📝 sn : shona" + "\n" + \
+                       "📝 sd : sindhi" + "\n" + \
+                       "📝 si : sinhala" + "\n" + \
+                       "📝 sk : slovak" + "\n" + \
+                       "📝 sl : slovenian" + "\n" + \
+                       "📝 so : somali" + "\n" + \
+                       "📝 es : spanish" + "\n" + \
+                       "📝 su : sundanese" + "\n" + \
+                       "📝 sw : swahili" + "\n" + \
+                       "📝 sv : swedish" + "\n" + \
+                       "📝 tg : tajik" + "\n" + \
+                       "📝 ta : tamil" + "\n" + \
+                       "📝 te : telugu" + "\n" + \
+                       "📝 th : thai" + "\n" + \
+                       "📝 tr : turkish" + "\n" + \
+                       "📝 uk : ukrainian" + "\n" + \
+                       "📝 ur : urdu" + "\n" + \
+                       "📝 uz : uzbek" + "\n" + \
+                       "📝 vi : vietnamese" + "\n" + \
+                       "📝 cy : welsh" + "\n" + \
+                       "📝 xh : xhosa" + "\n" + \
+                       "📝 yi : yiddish" + "\n" + \
+                       "📝 yo : yoruba" + "\n" + \
+                       "📝 zu : zulu" + "\n" + \
+                       "📝 fil : Filipino" + "\n" + \
+                       "📝 he : Hebrew" + "\n" + \
+                       "🔊🔊🔊 Jangan Typo 🔊🔊🔊" + "\n" + "\n" + \
                          "Contoh : tr-en Lagi Syantik "
     return helpTranslate
 groupParam = ""
@@ -1033,7 +1011,7 @@ def bot(op):
                         contact = cl.getContact(msg.contentMetadata["mid"])
                         path = cl.getContact(msg.contentMetadata["mid"]).picturePath
                         image = 'http://dl.profile.line.naver.jp'+path
-                        cl.sendMessage(msg.to,"☬ Nama : " + msg.contentMetadata["displayName"] + "\n🔰 MID : " + msg.contentMetadata["mid"] + "\n🔰 Status Msg : " + contact.statusMessage + "\n🔰 Picture URL : http://dl.profile.line-cdn.net/" + contact.pictureStatus)
+                        cl.sendMessage(msg.to,"✍ Nama : " + msg.contentMetadata["displayName"] + "\n🔰 MID : " + msg.contentMetadata["mid"] + "\n🔰 Status Msg : " + contact.statusMessage + "\n🔰 Picture URL : http://dl.profile.line-cdn.net/" + contact.pictureStatus)
                         cl.sendImageWithURL(msg.to, image)
 #ADD ADMIN
                  if msg._from in admin:
@@ -1140,52 +1118,52 @@ def bot(op):
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "╭━━━━━━━━━━━━━━━━\n┃          🔰 S T A T U S 🔰\n┃━━━━━━━━━━━━━━━━\n"
-                                if wait["unsend"] == True: md+="┃🔰┃ 🔊 Unsend「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Unsend「OFF」\n"
-                                if wait["sticker"] == True: md+="┃🔰┃ 🔊 Sticker「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Sticker「OFF」\n"
-                                if wait["contact"] == True: md+="┃🔰┃ 🔊 Contact「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Contact「OFF」\n"
-                                if wait["Mentionkick"] == True: md+="┃🔰┃ 🔊 Notag「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Notag「OFF」\n"
-                                if wait["detectMention"] == True: md+="┃🔰┃ 🔊 Respon「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Respon「OFF」\n"
-                                if wait["Mentiongift"] == True: md+="┃🔰┃ 🔊 Respongift「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Respongift「OFF」\n"
-                                if wait["autoJoin"] == True: md+="┃🔰┃ 🔊 Autojoin「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Autojoin「OFF」\n"
-                                if settings["autoJoinTicket"] == True: md+="┃🔰┃ 🔊 Join Ticket「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Join Ticket「OFF」\n"
-                                if msg.to in simisimi: md+="┃🔰┃ 🔊 Simisimi「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Simisimi「OFF」\n"
-                                if wait["autoAdd"] == True: md+="┃🔰┃ 🔊 Autoadd「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Autoadd「OFF」\n"
-                                if msg.to in welcome: md+="┃🔰┃ 🔊 Welcome「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Welcome「OFF」\n"
-                                if wait["autoLeave"] == True: md+="┃🔰┃ 🔊 Autoleave「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Autoleave「OFF」\n"
-                                cl.sendMessage(msg.to, md+"┃━━━━━━━━━━━━━━━━\n┃☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n╰━━━━━━━━━━━━━━━━")
+                                md = "-▬▬▬▬▬▬▬▬▬▬▬▬\n          🔰 S T A T U S 🔰\n-▬▬▬▬▬▬▬▬▬▬▬▬\n"
+                                if wait["unsend"] == True: md+="🔊 Unsend「ON」\n"
+                                else: md+="🔇 Unsend「OFF」\n"
+                                if wait["sticker"] == True: md+="🔊 Sticker「ON」\n"
+                                else: md+="🔇 Sticker「OFF」\n"
+                                if wait["contact"] == True: md+="🔊 Contact「ON」\n"
+                                else: md+="🔇 Contact「OFF」\n"
+                                if wait["Mentionkick"] == True: md+="🔊 Notag「ON」\n"
+                                else: md+="🔇 Notag「OFF」\n"
+                                if wait["detectMention"] == True: md+="🔊 Respon「ON」\n"
+                                else: md+="🔇 Respon「OFF」\n"
+                                if wait["Mentiongift"] == True: md+="🔊 Respongift「ON」\n"
+                                else: md+="🔇 Respongift「OFF」\n"
+                                if wait["autoJoin"] == True: md+="🔊 Autojoin「ON」\n"
+                                else: md+="🔇 Autojoin「OFF」\n"
+                                if settings["autoJoinTicket"] == True: md+="🔊 Join Ticket「ON」\n"
+                                else: md+="🔇 Join Ticket「OFF」\n"
+                                if msg.to in simisimi: md+="🔊 Simisimi「ON」\n"
+                                else: md+="🔇 Simisimi「OFF」\n"
+                                if wait["autoAdd"] == True: md+="🔊 Autoadd「ON」\n"
+                                else: md+="🔇 Autoadd「OFF」\n"
+                                if msg.to in welcome: md+="🔊 Welcome「ON」\n"
+                                else: md+="🔇 Welcome「OFF」\n"
+                                if wait["autoLeave"] == True: md+="🔊 Autoleave「ON」\n"
+                                else: md+="🔇 Autoleave「OFF」\n"
+                                cl.sendMessage(msg.to, md+"-▬▬▬▬▬▬▬▬▬▬▬▬\n☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n-▬▬▬▬▬▬▬▬▬▬▬▬")
 
                         elif cmd == "status translate":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "╭━━━━━━━━━━━━━━━━\n┃ 🔰 STATUS TRANSLATE 🔰\n┃━━━━━━━━━━━━━━━━\n"
-                                if msg.to in translatetr: md+="┃🔰┃ 🔊 Turkish「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Turkish 「OFF」\n"
-                                if msg.to in translateen: md+="┃🔰┃ 🔊 English「ON」\n"
-                                else: md+="┃🔰┃ 🔇 English「OFF」\n"
-                                if msg.to in translateid: md+="┃🔰┃ 🔊 Indonesia「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Indonesia「OFF」\n"
-                                if msg.to in translateth: md+="┃🔰┃ 🔊 Thailand「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Thailand「OFF」\n"
-                                if msg.to in translatetw: md+="┃🔰┃ 🔊 Taiwan「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Taiwan「OFF」\n"
-                                if msg.to in translatear: md+="┃🔰┃ 🔊 Arab「ON」\n"
-                                else: md+="┃🔰┃ 🔇 Arab「OFF」\n"
-                                cl.sendMessage(msg.to, md+"┃━━━━━━━━━━━━━━━━\n┃☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n╰━━━━━━━━━━━━━━━━")
+                                md = "-▬▬▬▬▬▬▬▬▬▬▬▬\n🔰 STATUS TRANSLATE 🔰\n-▬▬▬▬▬▬▬▬▬▬▬▬\n"
+                                if msg.to in translatetr: md+="🔊 Turkish「ON」\n"
+                                else: md+="🔇 Turkish 「OFF」\n"
+                                if msg.to in translateen: md+="🔊 English「ON」\n"
+                                else: md+="🔇 English「OFF」\n"
+                                if msg.to in translateid: md+="🔊 Indonesia「ON」\n"
+                                else: md+="🔇 Indonesia「OFF」\n"
+                                if msg.to in translateth: md+="🔊 Thailand「ON」\n"
+                                else: md+="🔇 Thailand「OFF」\n"
+                                if msg.to in translatetw: md+="🔊 Taiwan「ON」\n"
+                                else: md+="🔇 Taiwan「OFF」\n"
+                                if msg.to in translatear: md+="🔊 Arab「ON」\n"
+                                else: md+="🔇 Arab「OFF」\n"
+                                cl.sendMessage(msg.to, md+"-▬▬▬▬▬▬▬▬▬▬▬▬\n☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n-▬▬▬▬▬▬▬▬▬▬▬▬")
 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
@@ -2046,7 +2024,7 @@ def bot(op):
                                 nmor = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21"]
                                 plih = random.choice(nmor)
                                 nmor2 = ["1","2","3","4","5","6","7"]
-                                plih2 = random.choice(nm:or2)
+                                plih2 = random.choice(nmor2)
                                 url = ("https://farzain.xyz//api//premium//fansign//fs%20("+plih+").php?text="+nama+"&apikey=al11241519","http://farzain.xyz/api/premium/fansign/cos/cos%20("+plih2+").php?text="+nama+"&apikey=al11241519")
                                 plihurl = random.choice(url)
                                 cl.sendImageWithURL(msg.to, plihurl)
