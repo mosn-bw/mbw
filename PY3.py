@@ -360,7 +360,7 @@ def help():
     helpMessage = "🔰 MODE: "+ key2 +" 🔰" + "\n" + \
                   "🔥 Help Message 🔥" + "\n" + \
                   "     Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "🔵 Menu" + "\n" + \
+                  "\n🔵 Menu" + "\n" + \
                   "🔰 " + key + "Help\n" + \
                   "🔰 " + key + "Help bot\n" + \
                   "🔰 " + key + "Translate\n" + \
@@ -411,7 +411,7 @@ def help():
                   "🔰 " + key + "Mykey\n" + \
                   "🔰 " + key + "Resetkey\n" + \
                   "     Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "🔵 Hiburan" + "\n" + \
+                  "\n🔵 Hiburan" + "\n" + \
                   "🎭 " + key + "Musik:「Judul Lagu」\n" + \
                   "🎭 " + key + "Musik2:「Judul Lagu」\n" + \
                   "🎭 " + key + "Playlist「Nama Penyanyi」\n" + \
@@ -442,7 +442,7 @@ def help():
                   "🎭 " + key + "Spamcall\n" + \
                   "🎭 " + key + "ID line:「Id Line nya」\n" + \
                   "     Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "🔵 Settings" + "\n" + \
+                  "\n🔵 Settings" + "\n" + \
                   "🎭 " + key + "Unsend「on/off」\n" + \
                   "🎭 " + key + "Jointicket「on/off」\n" + \
                   "🎭 " + key + "Sticker「on/off」\n" + \
@@ -455,7 +455,7 @@ def help():
                   "🎭 " + key + "Simi「on/off」\n" + \
                   "🎭 " + key + "Autoleave「on/off」\n" + \
                   "     Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "🔵 Admin" + "\n" + \
+                  "\n🔵 Admin" + "\n" + \
                   "🎭 " + key + "Changenamecreator:「Nama」\n" + \
                   "🎭 " + key + "Resetnamecreator\n" + \
                   "🎭 " + key + "Admin:on\n" + \
@@ -478,7 +478,7 @@ def helarot():
     helpMessage1 ="🔰 NAME: "+ key2 +" 🔰" + "\n" + \
                   "🔵 Help Bot" + "\n" + \
                   "     Gunakan「 " + key + " 」Di Depannya\n" + \
-                  "🔵 Menu" + "\n" + \
+                  "\n🔵 Menu" + "\n" + \
                   "🔥 " + key + "Cek sider\n" + \
                   "🔥 " + key + "Cek spam\n" + \
                   "🔥 " + key + "Cek pesan\n" + \
@@ -495,7 +495,7 @@ def helarot():
                   "🔥 " + key + "Gift:「Mid korban」「Jumlah」\n" + \
                   "🔥 " + key + "Spam:「Mid korban」「Jumlah」\n" + \
                   "     Ketik「 Refresh 」Jika Sudah Menggunakan Command Diatas...\n" + \
-                  "🔐 USER:"+ key2 +"™"
+                  "\n🔐 USER:"+ key2 +"™"
     return helpMessage1
 
 def infomeme():
@@ -527,6 +527,7 @@ def infomeme():
 ✍ sk
 ✍ sparta
 ✍ aag
+
 🎓 by: ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ 🎓
 line.me/ti/p/~calon.almarhum99"""
     return helpMessage2
@@ -661,7 +662,7 @@ def translate():
                        "📝 zu : zulu" + "\n" + \
                        "📝 fil : Filipino" + "\n" + \
                        "📝 he : Hebrew" + "\n" + \
-                       "🔊🔊🔊 Jangan Typo 🔊🔊🔊" + "\n" + "\n" + \
+                       "\n🔊🔊🔊 Jangan Typo 🔊🔊🔊" + "\n" + "\n" + \
                          "Contoh : tr-en Lagi Syantik "
     return helpTranslate
 groupParam = ""
