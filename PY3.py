@@ -12,7 +12,7 @@ from googletrans import Translator
 import youtube_dl
 #BOT INI BUAT KALIAN YANG MEMANG MEMBUTUHKAN
 cl = LineClient()
-#cl = LineClient(authToken='EvCHl1LIkGE5sn3R42c1.N0EmwaQCtH3L5aFPSqWTOq.HRZc6cg44bHJTcCzZ1YpVHZXrKrchDfLD0AiExBaEj0=')
+#cl = LineClient(authToken='Ev49wbWDciJuzQi8UG6e.mDIRQD+WthuKlYOGL7ITRG.pAFPZhYHHPSFjqOGUkKn9dqHCER/ZNDUDgOBpLrWJe4=')   #PH-13
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -103,7 +103,7 @@ wait = {
     "selfbot":True,
     "unsend":False,
     "mention":"Hayoo ngintip ,ketuaan kan..ngaku hayoo",
-    "Respontag":"ciee nge-Tag gua ,pasti pas ada maunya aja...🙌😂",
+    "Respontag":"ciee nge-Tag gua ,pasti pas ada maunya aja kan...🙌😂",
     "welcome":"Nah Calon Tikungan Baru",
     "leave":"NAH LOH BAPER KHAAAN KHAAAN ,KEBANYAKAN DRAMA SIHH..😂",
     "comment":"Like by JEM_BOT",
@@ -465,7 +465,7 @@ def help():
                   "🎭 " + key + "Refresh\n" + \
                   "🎭 " + key + "Listadmin\n" + \
                   "     Ketik「 Refresh 」Jika Sudah Menggunakan Command Diatas...\n" + \
-                  "🔐 USER BY:"+ key2 +"™"
+                  "\n🔐 USER BY:"+ key2 + "🔐"
     return helpMessage
 
 
@@ -495,7 +495,7 @@ def helarot():
                   "🔥 " + key + "Gift:「Mid korban」「Jumlah」\n" + \
                   "🔥 " + key + "Spam:「Mid korban」「Jumlah」\n" + \
                   "     Ketik「 Refresh 」Jika Sudah Menggunakan Command Diatas...\n" + \
-                  "\n🔐 USER:"+ key2 +"™"
+                  "\n🔐 USER:"+ key2 + "🔐"
     return helpMessage1
 
 def infomeme():
@@ -528,7 +528,7 @@ def infomeme():
 ✍ sparta
 ✍ aag
 
-🎓 by: ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ 🎓
+🎓 by: ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™ 🎓
 line.me/ti/p/~calon.almarhum99"""
     return helpMessage2
 def listharga():
@@ -941,7 +941,7 @@ def bot(op):
                            plihth = random.choice(idth)
                            jenis = ["5","6","7","8"]
                            plihjenis = random.choice(jenis)
-                           cl.sendMessage(msg.to, "Yang suka ngetag aku gift aja\nCek di chat, udah aku gift tuh...")
+                           cl.sendMessage(msg.to, "Yang suka ngetag aku gift aja ya,\nsilahkan Cek di PM, udah aku gift tuh silahkan klik unduh,tp ingt klo belom berteman masa berlaku tikel akan kadaluarsa...")
                            cl.sendMessage(msg._from, None, contentMetadata={"PRDID":plihth,"PRDTYPE":"THEME","MSGTPL":plihjenis}, contentType=9)
                            break
                if 'MENTION' in msg.contentMetadata.keys() != None:
